@@ -1,4 +1,5 @@
 >Back
+
 >[[Git]]
 
 1. Сгенерироватьu ssh-ключ
@@ -15,7 +16,7 @@ Host [host-name]
 	IdentityFile ~/.ssh/[secret-key-name]
 	IdentitiesOnly yes
 ```
-4. Создать репозиторий на  *Github*
+4. Создать репозиторий на *Github*
 5. В инициализированном *git*-репозитории написать 
 >[!example]
 ```shell
