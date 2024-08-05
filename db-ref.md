@@ -1,3 +1,5 @@
+Back \=> [[data-base]]
+
 # Fast Begin
 ---
 ## 1. Создание таблицы
@@ -15,6 +17,7 @@ CREATE TABLE [TABLE-NAME] (
    [colN] [DATE-TYPE] [ATTR]
 );
 ```
+
 >[!Note] Sample
 ```sqlite
 CREATE TABLE IF NOT EXISTS <table-name> (

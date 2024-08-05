@@ -1,8 +1,5 @@
----
-tags:
-  - pac
----
-
+> Back
+> [[Packet-mn]]
 ## Base
 
 > -Qm						    -Показывает AUR пакеты

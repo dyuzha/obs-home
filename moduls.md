@@ -1,5 +1,9 @@
-[[py-sqlite-ref]]
-- Typer
+> **Back**
+> [[Python]]
+
+> **More**
+ - [[py-sqlite-ref]]
+ - Typer
 - Click
 - Fire  
 - Tqdm

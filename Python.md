@@ -1,6 +1,4 @@
----
-tags: []
----
+
 [[py-oop]]
 [[py-ref]]
 [[py-import]]

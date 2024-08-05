@@ -1,6 +1,5 @@
----
-tags: []
----
+> Back
+> [[data-base]]
 # Init #
 ---
 ```sh

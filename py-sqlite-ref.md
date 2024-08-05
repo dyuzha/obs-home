@@ -1,3 +1,6 @@
+> **Back**
+> [[moduls]]
+> [[data-base]]
 # Fast Begin
 ---
 ```python

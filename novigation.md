@@ -1,8 +1,5 @@
----
-tags:
-  - bash
----
-
+>Back
+>[[CLI]]
 
 ```
 history
@@ -39,23 +36,19 @@ Ctrl+r  		- find command
         		- что бы отредактировать нажимаем -> или <- 
         		- Alt+r - Reset command after edit                 
 
-| Ctrl+p | - Copy last command            |
-| ------ | ------------------------------ |
-| Ctrl+o | - Exec commands from clipboard |
-| Ctrl+a | Begin string                   |
-| Ctrl+e | End string                     |
-| Ctrl+d | - delete right symbol          |
-| Ctrl+b | -> symbols (alt = words)       |
-Ctrl+f			<- symbols  
-
-Ctrl+u			- Cut LEFT 
-Ctrl+k			- Cut RIGHT
-Ctrl+w 			- Cut WORD 
-
-Ctrl+y   		- Insert  	
-
-Ctrl+t			- Change 2 symbols (Alt = words)
-
+| Ctrl+p | - Copy last command              |
+| ------ | -------------------------------- |
+| Ctrl+o | - Exec commands from clipboard   |
+| Ctrl+a | Begin string                     |
+| Ctrl+e | End string                       |
+| Ctrl+d | - delete right symbol            |
+| Ctrl+b | -> symbols (alt = words)         |
+| Ctrl+f | <- symbols                       |
+| Ctrl+u | - Cut LEFT                       |
+| Ctrl+k | - Cut RIGHT                      |
+| Ctrl+w | - Cut WORD                       |
+| Ctrl+y | - Insert                         |
+| Ctrl+t | - Change 2 symbols (Alt = words) |
 ```
 cd -			
 ```

@@ -1,7 +1,6 @@
----
-tags:
-  - git
----
+>Back
+>[[Git]]
+
 1. Сгенерировать ssh-ключ
 >[!example]
 ```shell
