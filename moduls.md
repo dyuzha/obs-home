@@ -4,7 +4,7 @@
 > **More**
  - [[py-sqlite-ref]]
  - Typer
-- Click
+- [[click]]
 - Fire  
 - Tqdm
 - Plumbum - shell-syntax, shortcut
