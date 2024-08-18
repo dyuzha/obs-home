@@ -1,7 +1,7 @@
 >Back
 >[[Git]]
 
-1. Сгенерировать ssh-ключ
+1. Сгенерироватьu ssh-ключ
 >[!example]
 ```shell
 ssh-keygen -t ed25519 -c "your_email@example.com"

@@ -1,4 +1,3 @@
-
 [[vim-ref]]
 [[bash]]
 [[Git]]
