@@ -5,5 +5,7 @@
 > **More**
 > [[vim-set]]
 > [[vim-cmd]]
-> [[vim ]]
+> [vim-script](vim-script.md)
+> [[vim-modules]]
+
 

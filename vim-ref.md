@@ -54,9 +54,6 @@
 Источник: [Найти и заменить в Vim/Vi](https://andreyex.ru/linux/najti-i-zamenit-v-vim-vi/)
 ## Find
 ---
-
-Использование быстрых клавиш в командной строке Linux (BASH)
-
 ```vim
 :vimgrep /<искомая строка>/<Puth/to/file> | :copen
 ```
