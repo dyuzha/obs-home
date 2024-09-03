@@ -1,0 +1,181 @@
+{
+  "main": {
+    "id": "670e3f25bbbdfecf",
+    "type": "split",
+    "children": [
+      {
+        "id": "95d8391b8da973f3",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "372c1b48f69004a1",
+            "type": "leaf",
+            "state": {
+              "type": "empty",
+              "state": {}
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "vertical"
+  },
+  "left": {
+    "id": "453709e8a3b45267",
+    "type": "split",
+    "children": [
+      {
+        "id": "f9b0fd35d70a44ee",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "30ade68f34c9b5aa",
+            "type": "leaf",
+            "state": {
+              "type": "search",
+              "state": {
+                "query": "",
+                "matchingCase": false,
+                "explainSearch": false,
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical"
+              }
+            }
+          },
+          {
+            "id": "42deebd4ab599ad2",
+            "type": "leaf",
+            "state": {
+              "type": "bookmarks",
+              "state": {}
+            }
+          },
+          {
+            "id": "cbbada217b0f03c6",
+            "type": "leaf",
+            "state": {
+              "type": "file-explorer",
+              "state": {
+                "sortOrder": "alphabetical"
+              }
+            }
+          }
+        ],
+        "currentTab": 2
+      }
+    ],
+    "direction": "horizontal",
+    "width": 200
+  },
+  "right": {
+    "id": "6dbd8243553857d4",
+    "type": "split",
+    "children": [
+      {
+        "id": "be5583ab88d9e8c7",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "4db92264bada2a15",
+            "type": "leaf",
+            "state": {
+              "type": "backlink",
+              "state": {
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical",
+                "showSearch": false,
+                "searchQuery": "",
+                "backlinkCollapsed": false,
+                "unlinkedCollapsed": true
+              }
+            }
+          },
+          {
+            "id": "56ceabf280cde610",
+            "type": "leaf",
+            "state": {
+              "type": "outgoing-link",
+              "state": {
+                "linksCollapsed": false,
+                "unlinkedCollapsed": true
+              }
+            }
+          },
+          {
+            "id": "d3ce9927fa81610d",
+            "type": "leaf",
+            "state": {
+              "type": "tag",
+              "state": {
+                "sortOrder": "frequency",
+                "useHierarchy": true
+              }
+            }
+          },
+          {
+            "id": "f75ff642b269a22e",
+            "type": "leaf",
+            "state": {
+              "type": "outline",
+              "state": {}
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "horizontal",
+    "width": 300,
+    "collapsed": true
+  },
+  "left-ribbon": {
+    "hiddenItems": {
+      "switcher:Меню быстрого перехода": false,
+      "graph:Граф": false,
+      "canvas:Создать новый холст": false,
+      "daily-notes:Сегодняшняя заметка": false,
+      "templates:Вставить шаблон": false,
+      "command-palette:Открыть палитру команд": false
+    }
+  },
+  "active": "372c1b48f69004a1",
+  "lastOpenFiles": [
+    "git-ssh.md",
+    "vim-script.md~",
+    "4913",
+    "zipfile.md~",
+    "py-modules.md~",
+    "py-modules.md",
+    "zipfile.md",
+    "vim-modules.md~",
+    "ranger.md",
+    "vim-script.md",
+    "Vim.md",
+    "Vim~",
+    "AD.md~",
+    "AD.md",
+    "find.md",
+    "digitat-inf.md",
+    "db-ref.md",
+    "db-cons.md",
+    "data-base.md",
+    "click.md",
+    "vimb.md",
+    "vimb.md~",
+    "ranger.md~",
+    "vim-markdown.md~",
+    "vim-markdown.md",
+    "py-ref.md",
+    "Python.md",
+    "Lin.md",
+    "grep.md",
+    "git-conflicts.md",
+    "Git.md",
+    "vim-ref.md",
+    "Без названия.md",
+    "moduls.md",
+    "py-sqlite-ref.md",
+    "files/obs-logo.svg"
+  ]
+}
