@@ -3,5 +3,6 @@
   "showLineNumber": true,
   "readableLineLength": true,
   "showInlineTitle": false,
-  "showRibbon": false
+  "showRibbon": false,
+  "promptDelete": false
 }

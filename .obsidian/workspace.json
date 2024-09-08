@@ -4,11 +4,11 @@
     "type": "split",
     "children": [
       {
-        "id": "95d8391b8da973f3",
+        "id": "cdd4439d7e0518eb",
         "type": "tabs",
         "children": [
           {
-            "id": "372c1b48f69004a1",
+            "id": "468c837210bce2c8",
             "type": "leaf",
             "state": {
               "type": "empty",
@@ -82,6 +82,7 @@
             "state": {
               "type": "backlink",
               "state": {
+                "file": "files/obs-logo.svg",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -98,6 +99,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
+                "file": "files/obs-logo.svg",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -119,7 +121,9 @@
             "type": "leaf",
             "state": {
               "type": "outline",
-              "state": {}
+              "state": {
+                "file": "files/obs-logo.svg"
+              }
             }
           }
         ]
@@ -139,43 +143,45 @@
       "command-palette:Открыть палитру команд": false
     }
   },
-  "active": "372c1b48f69004a1",
+  "active": "cbbada217b0f03c6",
   "lastOpenFiles": [
-    "git-ssh.md",
-    "vim-script.md~",
-    "4913",
-    "zipfile.md~",
-    "py-modules.md~",
-    "py-modules.md",
-    "zipfile.md",
-    "vim-modules.md~",
-    "ranger.md",
-    "vim-script.md",
-    "Vim.md",
-    "Vim~",
-    "AD.md~",
     "AD.md",
-    "find.md",
-    "digitat-inf.md",
-    "db-ref.md",
-    "db-cons.md",
-    "data-base.md",
+    "Base.md",
+    "bash.md",
+    "bash-2.md",
+    "CLI.md",
     "click.md",
-    "vimb.md",
-    "vimb.md~",
-    "ranger.md~",
-    "vim-markdown.md~",
-    "vim-markdown.md",
-    "py-ref.md",
-    "Python.md",
-    "Lin.md",
-    "grep.md",
-    "git-conflicts.md",
+    "data-base.md",
+    "db-cons.md",
+    "db-ref.md",
+    "digitat-inf.md",
+    "find.md",
     "Git.md",
-    "vim-ref.md",
-    "Без названия.md",
-    "moduls.md",
-    "py-sqlite-ref.md",
+    "git-base.md",
+    "git-beg.md",
+    "git-conflicts.md",
+    "git-reference.md",
+    "git-ssh.md",
+    "grep.md",
+    "Lin.md",
+    "Markdown.md",
+    "novigation.md",
+    "Packet-mn.md",
+    "Obsidian as meaning of life.md",
+    "pacman.md",
+    "py-magic.md",
+    "py-import.md",
+    "Untitled.canvas",
+    "autocmd.vim",
+    "vim-script.md~",
+    "test.vim~",
+    "4913",
+    "test.vim",
+    "foo~",
+    "vim-autocmd.md~",
+    "foeeot.html",
+    "foot.html",
+    "foo.html",
     "files/obs-logo.svg"
   ]
 }

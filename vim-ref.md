@@ -1,5 +1,10 @@
 # Cheats
 ---
+## Esc - Альтернативы
+`Ctrl-c`
+`Ctrl-[`
+
+
 ## Replacemnt
 >[!Example] Pattern
 ```vim
@@ -103,9 +108,53 @@ ZZ                  - Сохранить и выйти
 zz              - center
 zb              - down
 zt              - up
-```
+
+# Tabs
 ---
+`vim -p <file_name1> <file_name2> <file_name3> ` 
+- открыть сразу несколько файлов в **табах**.
+
+`:set tabpagemax=10`- значение **табов** по умолч.
+
+`:tabnew <file_name>` - открыть **файл** в новой вкладке
+
+`tabf <pattern>`- открыть **табы** по шаблону (больше одного файла не открыть, по сути такое)
+
+`:set showtabline=2` - включает постоянное отображение **tabов**
+
+`:tabdo <command>` - применяет команду для всего **таба**
+
+`tabs` - посмотреть все **табы**
+
+
+## MoveTabs
+---
+### Move to tab
+`:tabn` - gt
+`:tabf` -gT
+- Можно использовать `<numb>gT` *(например 5gt)*
+`:tabfirst` - first
+`:tablast` - last
+
+### Move tab
+`:tabm <numb>` - перемещает вкладку на указанный номер 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 # Move
+---
+
 ```
 <CTR>f 			- на стр. вниз
 <CTR>b 			- на стр. вверх
