@@ -1,11 +1,17 @@
 
-> **Back**
-> [[Lin]]
+**Back**
+[[Lin]]
 
-> **More**
-> [[vim-set]]
-> [[vim-cmd]]
-> [vim-script](vim-script.md)
-> [[vim-modules]]
+ **More**
+[Reference](vim-ref.md)
+[Command](vim-command.md) 
+[Vimscript](vim-script.md)
+
+[Status line](vim-status-line.md)
+
+[MarkDown](vim-markdown.md)
+
+
+
 
 

@@ -1,0 +1,184 @@
+
+# == blocs == #
+snippet ex_ "Example" bA
+>[!Example]
+>$0
+endsnippet
+
+snippet tip_ "TIP" bA
+>[!TIP]
+>$0
+endsnippet
+
+snippet sum_ "Summary" bA
+>[!Summary]
+>$0
+endsnippet
+
+snippet warn_ "Warning!" bA
+>[!Warning]
+>$0
+endsnippet
+
+snippet faq_ "FAQ" bA
+>[!FAQ]
+>$0
+endsnippet
+
+snippet note_ "note" bA
+>[!Note]
+>$0
+endsnippet
+
+snippet info_ "info" bA
+>[!Info]
+>$0
+endsnippet
+
+#== code-block ==#
+snippet code_ "code block" bA
+\`\`\`
+$0
+\`\`\`
+endsnippet
+
+snippet db_ "code-db" bA
+\`\`\`sqlite
+$0
+\`\`\`
+endsnippet
+
+snippet py_ "py_code" bA
+\`\`\`python
+$0
+\`\`\`
+endsnippet
+
+snippet sh_ "shell_code" bA
+\`\`\`sh
+$0
+\`\`\`
+endsnippet
+
+snippet vim_ "vim_code" bA
+\`\`\`vim
+$0
+\`\`\`
+endsnippet
+
+
+#== heders ==#
+snippet h6_ "h4" A
+###### $0
+---
+endsnippet
+
+snippet h5_ "h4" A
+##### $0
+---
+endsnippet
+
+snippet h4_ "h4" A
+#### $0
+---
+endsnippet
+
+snippet h3_ "h3" bA
+### $0
+---
+endsnippet
+
+snippet h2_ "h2" bA
+## $0
+---
+endsnippet
+
+snippet h_ "h1" bA
+# $0
+---
+endsnippet
+
+
+# == eddit == #
+
+snippet ap_ "bold" A
+\`$0\`
+endsnippet
+
+snippet b_ "bold" A
+**$0**
+endsnippet
+
+snippet c_ "curse" A
+*$0*
+endsnippet
+
+snippet m_ "mark" A
+==$0== 
+endsnippet
+
+snippet б_ "bold" A
+**$0**
+endsnippet
+
+snippet с_ "curse" A
+*$0*
+endsnippet
+
+snippet м_ "mark" A
+==$0== 
+endsnippet
+
+
+# == aliases == #
+snippet гит_ "Git" A
+*Git*$0
+endsnippet
+
+snippet нулл_ "null" A 
+**NULL**$0
+endsnippet
+
+snippet скл_ "SQl" A
+*SQL*$0
+endsnippet
+
+snippet дб_ "db" A
+*db*$0
+endsnippet
+
+snippet пай_ "pythone" A
+*Py*
+endsnippet
+
+snippet ad_ "AD" A
+*AD*
+endsnippet
+
+snippet ад_ "AD" A
+*AD*
+endsnippet
+
+snippet Vim_ "Vim" A
+*Vim*
+endsnippet
+
+snippet Вим_ "Vim" A
+*Vim*
+endsnippet
+
+snippet Sys_ "Sytemctl" A
+**Systemctl**
+endsnippet
+
+snippet Sys_ "Sytemctl" A
+**Systemctl**
+endsnippet
+
+
+
+# == scr == #
+snippet тык_ "link" A
+[тык]($0)
+endsnippet
+
