@@ -4,19 +4,21 @@
     "type": "split",
     "children": [
       {
-        "id": "cdd4439d7e0518eb",
+        "id": "c673ae08b4a980ab",
         "type": "tabs",
         "children": [
           {
-            "id": "468c837210bce2c8",
+            "id": "0534f96d6fbfdc34",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "vim-status-line.md",
+                "file": "Python/cons.md",
                 "mode": "source",
                 "source": false
-              }
+              },
+              "icon": "lucide-file",
+              "title": "cons"
             }
           }
         ]
@@ -44,7 +46,9 @@
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical"
-              }
+              },
+              "icon": "lucide-search",
+              "title": "Поиск"
             }
           },
           {
@@ -52,7 +56,9 @@
             "type": "leaf",
             "state": {
               "type": "bookmarks",
-              "state": {}
+              "state": {},
+              "icon": "lucide-bookmark",
+              "title": "Закладки"
             }
           },
           {
@@ -62,7 +68,9 @@
               "type": "file-explorer",
               "state": {
                 "sortOrder": "alphabetical"
-              }
+              },
+              "icon": "lucide-folder-closed",
+              "title": "Файловый менеджер"
             }
           }
         ],
@@ -70,8 +78,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 200,
-    "collapsed": true
+    "width": 200
   },
   "right": {
     "id": "6dbd8243553857d4",
@@ -87,7 +94,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "vim-status-line.md",
+                "file": "Python/cons.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -95,7 +102,9 @@
                 "searchQuery": "",
                 "backlinkCollapsed": false,
                 "unlinkedCollapsed": true
-              }
+              },
+              "icon": "links-coming-in",
+              "title": "Обратные ссылки для cons"
             }
           },
           {
@@ -104,10 +113,12 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "vim-status-line.md",
+                "file": "Python/cons.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
-              }
+              },
+              "icon": "links-going-out",
+              "title": "Исходящие ссылки из cons"
             }
           },
           {
@@ -118,7 +129,9 @@
               "state": {
                 "sortOrder": "frequency",
                 "useHierarchy": true
-              }
+              },
+              "icon": "lucide-tags",
+              "title": "Теги"
             }
           },
           {
@@ -127,8 +140,10 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "vim-status-line.md"
-              }
+                "file": "Python/cons.md"
+              },
+              "icon": "lucide-list",
+              "title": "Структура cons"
             }
           }
         ]
@@ -148,45 +163,45 @@
       "command-palette:Открыть палитру команд": false
     }
   },
-  "active": "468c837210bce2c8",
+  "active": "0534f96d6fbfdc34",
   "lastOpenFiles": [
-    "systemd.md~",
+    "Python/click.md",
+    "Python/Python.md",
+    "Linux/Apps.md",
+    "Linux/apps.md",
+    "Windows/Windows.md",
+    "Vim/ready.md",
+    "Vim/regular.md",
+    "Python/magic.md",
+    "Python/import.md",
+    "Python/json.md",
+    "Python/decorator.md",
+    "Python/iteration.md",
+    "Python/regular.md",
+    "Base/regular.md",
+    "Linux/Packet-mn.md",
+    "Mapping/Mapping.md",
+    "Linux/Bash.md",
+    "Linux/Notice.md",
+    "Linux/Process.md",
+    "Linux/bash.md",
+    "Linux/shell.md",
+    "Linux/systemd.md",
+    "Linux/Lin.md",
+    "Git/ssh.md",
+    "Git/Reference.md",
+    "Git/LazyGit.md",
+    "vim--map.md~",
+    "vim--string-func.md~",
+    "vim-command.md~",
+    "vim-ready.md~",
     "4913",
-    "systemd.md",
+    "systemd.md~",
     "Lin.md~",
     "vim--find.md~",
     "vim-ref.md~",
     "vim--regular.md~",
-    "vim--regular.md",
-    "vim-script.md~",
-    "vim--string-func.md",
-    "vim--match.md",
-    "vim--make.md",
-    "vim--grep.md",
-    "vim--find.md",
-    "vim--create-operator.md",
-    "vim-command.md",
-    "vim--command.md",
-    "vim--autocmd.md",
-    "vim--arglist.md",
-    "bash-2.md~",
-    "vim-ready.md~",
-    "vim-command.md~",
-    "vim-create-operator.md~",
-    "vim-arglist.md",
-    "vim-grep.md",
-    "vim-make.md",
-    "vim-match.md",
-    "vim-create-operator.md",
-    "vim-string-func.md",
-    "vim-ready.md",
-    "vim-set.md",
-    "vim-script.md",
-    "vim-status-line.md",
-    "vim-find.md",
     "files/obs-logo.svg",
-    "vim-root.md",
-    "AD.md",
     "Untitled.canvas"
   ]
 }
