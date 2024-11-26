@@ -401,3 +401,13 @@ except PersonAgeException as e:
     print(e) # Недопутимое значение: -23. Возраст должен...
 ```
 
+# Списковые включения
+
+```py
+[expression for elem in sequence if condition]
+
+# Example:
+even_numbs = [x for x in range(1, 11) if x % 2 == 0]
+# [2, 4, 6, 8, 10]
+```
+

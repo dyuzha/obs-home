@@ -55,22 +55,22 @@ Ctrl + r
 # Alt+r - Reset command after edit                 
 ```
 
-| Cmd    | Description                      |
-| ------ | -------------------------------- |
-| Ctrl+p | - Copy last command              |
-| Ctrl+o | - Exec commands from clipboard   |
-| Ctrl+a | - Begin string                   |
-| Ctrl+e | - End string                     |
-| Ctrl+d | - delete right symbol            |
-| Ctrl+b | - -> symbols (alt = words)       |
-| Ctrl+f | - <- symbols                     |
-| Ctrl+u | - Cut LEFT                       |
-| Ctrl+k | - Cut RIGHT                      |
-| Ctrl+w | - Cut WORD                       |
-| Ctrl+y | - Insert                         |
-| Ctrl+t | - Change 2 symbols (Alt = words) |
-| Ctrl+l | - Clean terminal                 |
-| Ctrl+v | - Ввод следующего символа        |
+ | Cmd    | Description                      |
+ |--------|----------------------------------|
+ | Ctrl+p | - Copy last command              |
+ | Ctrl+o | - Exec commands from clipboard   |
+ | Ctrl+a | - Begin string                   |
+ | Ctrl+e | - End string                     |
+ | Ctrl+d | - delete right symbol            |
+ | Ctrl+b | - `-> symbols` (alt = words)       |
+ | Ctrl+f | - `<- symbols`                     |
+ | Ctrl+u | - Cut LEFT                       |
+ | Ctrl+k | - Cut RIGHT                      |
+ | Ctrl+w | - Cut WORD                       |
+ | Ctrl+y | - Insert                         |
+ | Ctrl+t | - Change 2 symbols (Alt = words) |
+ | Ctrl+l | - Clean terminal                 |
+ | Ctrl+v | -  символ                        |
 
 
 ```bash
