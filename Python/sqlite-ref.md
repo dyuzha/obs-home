@@ -1,5 +1,5 @@
 **Back**
-[[py-modules]](py-modules.md)
+[[modules]]
 [[data-base]](data-base.md)
 
 # Fast Begin

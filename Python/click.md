@@ -1,5 +1,5 @@
 > *Back*
-> [[moduls]]
+> [[modules]]
 
 
 

@@ -6,11 +6,11 @@
     "emojiStyle": "native",
     "iconColor": null,
     "recentlyUsedIcons": [
-      "LiPocket",
       "LiDatabase",
-      "LiFileSearch",
-      "LiSearch",
-      "LiGithub"
+      "LiSquareTerminal",
+      "LiBox",
+      "🐧",
+      "🔍"
     ],
     "recentlyUsedIconsSize": 5,
     "rules": [],
@@ -41,5 +41,17 @@
   "db-ref.md": "LiDatabase",
   "data-base.md": "LiDatabase",
   "pacman.md": "LiPocket",
-  "Packet-mn.md": "LiPocket"
+  "Packet-mn.md": "LiPocket",
+  "Linux/Apps.md": "🧰",
+  "Linux/archive.md": "LiArchiveRestore",
+  "Linux/Bash.md": "LiTerminal",
+  "Linux/CLI.md": "LiTerminalSquare",
+  "Linux/find.md": "LiSearch",
+  "Linux/grep.md": "LiFilter",
+  "Linux/Notice.md": "LiNotebookPen",
+  "Linux/novigation.md": "LiFlagTriangleLeft",
+  "Linux/ranger.md": "🔍",
+  "Python/click.md": "LiBox",
+  "Python/cons.md": "LiSquareTerminal",
+  "Python/data-base.md": "LiDatabase"
 }

@@ -2,7 +2,7 @@
 - [[Python]] [тык](Python.md)
 
 > **More**
-[[py--json]](py--json.md)
+[[json]]
 [sqlite-ref](py-sqlite-ref.md)[[py-sqlite-ref]]
 Typer
 [[click]]

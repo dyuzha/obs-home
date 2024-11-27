@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Base/digital-inf.md",
+                "file": "Python/decorator.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "digital-inf"
+              "title": "decorator"
             },
             "group": "e521937c72644caa"
           }
@@ -34,7 +34,7 @@
             "state": {
               "type": "localgraph",
               "state": {
-                "file": "Base/digital-inf.md",
+                "file": "Python/decorator.md",
                 "options": {
                   "collapse-filter": false,
                   "search": "",
@@ -62,7 +62,7 @@
                 }
               },
               "icon": "lucide-git-fork",
-              "title": "Граф digital-inf"
+              "title": "Граф decorator"
             },
             "group": "e521937c72644caa"
           }
@@ -210,33 +210,33 @@
   },
   "active": "0534f96d6fbfdc34",
   "lastOpenFiles": [
-    "Base/Base.md",
-    "Mapping/Markdown.md",
+    "Python/db-ref.md",
+    "Python/db-cons.md",
+    "Python/data-base.md",
+    "Python/cons.md",
+    "Python/click.md",
+    "Python/Python.md",
+    "Python/json.md",
     "Python/modules.md",
     "py-sqlite-ref.md",
-    "Python/iteration.md",
-    "Linux/novigation.md~",
-    "Python/click.md",
-    "Python/data-base.md",
-    "Linux/Lin.md",
-    "Python/cons.md",
-    "Linux/novigation.md",
-    "Linux/CLI.md",
-    "Vim/Commands.md",
-    "Vim/Vim.md",
-    "Python/time.md",
-    "Python/Python.md",
-    "Linux/Apps.md",
-    "Linux/apps.md",
-    "Windows/Windows.md",
-    "Vim/ready.md",
-    "Vim/regular.md",
+    "Python/sqlite-ref.md",
+    "Python/zipfile.md",
+    "Python/oop.md",
     "Python/magic.md",
-    "Python/import.md",
-    "Python/json.md",
     "Python/decorator.md",
-    "Python/regular.md",
-    "Base/regular.md",
+    "Python/Flask.md",
+    "Linux/CLI.md",
+    "Linux/Apps.md",
+    "Linux/Process.md",
+    "Linux/ranger.md",
+    "Linux/Bash.md",
+    "Linux/grep.md",
+    "Linux/find.md",
+    "Linux/systemd.md",
+    "Linux/Packet-mn.md",
+    "Linux/novigation.md",
+    "Linux/Notice.md",
+    "Linux/novigation.md~",
     "vim--map.md~",
     "vim--string-func.md~",
     "vim-command.md~",

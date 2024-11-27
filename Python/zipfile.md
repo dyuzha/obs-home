@@ -1,5 +1,5 @@
 **Back**
-- [[py-modules]] [тык](py-modules.md)
+- [[modules]] [тык](py-modules.md)
 
 **More**
 - [[zip]] [тык](zip.md)

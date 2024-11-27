@@ -1,5 +1,5 @@
 **Back**
-	[[Python]]
+	[[modules]]
 
 # Methods
 ---
