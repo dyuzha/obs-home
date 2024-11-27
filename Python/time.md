@@ -22,3 +22,6 @@ time.sleep() # [секунды]
 
 
 # Timeago
+
+
+
