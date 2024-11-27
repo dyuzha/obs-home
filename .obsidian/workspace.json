@@ -6,6 +6,7 @@
       {
         "id": "c673ae08b4a980ab",
         "type": "tabs",
+        "dimension": 60.8411214953271,
         "children": [
           {
             "id": "0534f96d6fbfdc34",
@@ -13,12 +14,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Python/decorator.md",
+                "file": "Linux/Apps.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "decorator"
+              "title": "Apps"
             },
             "group": "e521937c72644caa"
           }
@@ -27,6 +28,7 @@
       {
         "id": "e320511cf0a8528e",
         "type": "tabs",
+        "dimension": 39.15887850467289,
         "children": [
           {
             "id": "74bcfc9fe3750be3",
@@ -34,7 +36,7 @@
             "state": {
               "type": "localgraph",
               "state": {
-                "file": "Python/decorator.md",
+                "file": "Linux/Apps.md",
                 "options": {
                   "collapse-filter": false,
                   "search": "",
@@ -57,12 +59,12 @@
                   "repelStrength": 10,
                   "linkStrength": 1,
                   "linkDistance": 250,
-                  "scale": 1,
+                  "scale": 1.1899443234647964,
                   "close": true
                 }
               },
               "icon": "lucide-git-fork",
-              "title": "Граф decorator"
+              "title": "Граф Apps"
             },
             "group": "e521937c72644caa"
           }
@@ -210,6 +212,16 @@
   },
   "active": "0534f96d6fbfdc34",
   "lastOpenFiles": [
+    "Linux/CLI.md",
+    "Vim/Vim.md",
+    "Linux/systemd.md",
+    "Linux/ranger.md",
+    "Linux/archive.md",
+    "Linux/Apps.md",
+    "Linux/Notice.md",
+    "Linux/novigation.md",
+    "Windows/AD.md",
+    "Python/decorator.md",
     "Python/db-ref.md",
     "Python/db-cons.md",
     "Python/data-base.md",
@@ -223,19 +235,9 @@
     "Python/zipfile.md",
     "Python/oop.md",
     "Python/magic.md",
-    "Python/decorator.md",
     "Python/Flask.md",
-    "Linux/CLI.md",
-    "Linux/Apps.md",
     "Linux/Process.md",
-    "Linux/ranger.md",
     "Linux/Bash.md",
-    "Linux/grep.md",
-    "Linux/find.md",
-    "Linux/systemd.md",
-    "Linux/Packet-mn.md",
-    "Linux/novigation.md",
-    "Linux/Notice.md",
     "Linux/novigation.md~",
     "vim--map.md~",
     "vim--string-func.md~",
