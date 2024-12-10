@@ -2,20 +2,19 @@
 ---
 #### Просмотр версий
 ---
-```sh
+```bash
+# Просмотр версий
+
 py3 --version
 pip3 --version
 py3 -m pip --version
-```
 
-#### Установка пакета
----
-```sh
+# Установка пакета
 py3 -m pip install <mave-pkg>[=2.5.4] # версия
 ```
 
 #### Проверка установленных пакетов
-```sh
+```bash
 pip3 list
 ```
 
@@ -35,15 +34,17 @@ $ deactivate
 - Виртуальная оболочка должна быть активирована
 
 1) Экспортируем имена пакетов:
-```sh
+```bash
 py3 -m pip freeze > pachages.txt
 ```
 >[!Example] packeges.txt
->```certifi==2023.7.22
+```bash
+certifi==2023.7.22
 charset-normalizer==3.2.0
 idna==3.4
 requests==2.31.0
 urllib3==2.0.5
+```
 
 
 https://pythoner.name/pip-venv

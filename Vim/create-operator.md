@@ -1,4 +1,4 @@
-[[Vim/Reference|Reference]]
+hut[Vim/Reference|Reference]]
 # Begin
 ---
 Source: [ЯндексДзен Оператор grep часть 1](https://dzen.ru/a/Y8w0G4I4dBVUnjG4?share_to=link)

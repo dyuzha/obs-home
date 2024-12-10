@@ -6,7 +6,7 @@
       {
         "id": "c673ae08b4a980ab",
         "type": "tabs",
-        "dimension": 60.8411214953271,
+        "dimension": 60.62499999999999,
         "children": [
           {
             "id": "0534f96d6fbfdc34",
@@ -14,29 +14,29 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Linux/Apps.md",
+                "file": "Vim/create-operator.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Apps"
+              "title": "create-operator"
             },
-            "group": "e521937c72644caa"
+            "group": "4c13540e028a0f38"
           }
         ]
       },
       {
-        "id": "e320511cf0a8528e",
+        "id": "9fd415b78e5e1382",
         "type": "tabs",
-        "dimension": 39.15887850467289,
+        "dimension": 39.375,
         "children": [
           {
-            "id": "74bcfc9fe3750be3",
+            "id": "b85ae172017477fd",
             "type": "leaf",
             "state": {
               "type": "localgraph",
               "state": {
-                "file": "Linux/Apps.md",
+                "file": "Vim/create-operator.md",
                 "options": {
                   "collapse-filter": false,
                   "search": "",
@@ -47,7 +47,7 @@
                   "showTags": false,
                   "showAttachments": false,
                   "hideUnresolved": false,
-                  "collapse-color-groups": false,
+                  "collapse-color-groups": true,
                   "colorGroups": [],
                   "collapse-display": true,
                   "showArrow": false,
@@ -59,14 +59,14 @@
                   "repelStrength": 10,
                   "linkStrength": 1,
                   "linkDistance": 250,
-                  "scale": 1.1899443234647964,
+                  "scale": 1,
                   "close": true
                 }
               },
               "icon": "lucide-git-fork",
-              "title": "Граф Apps"
+              "title": "Граф create-operator"
             },
-            "group": "e521937c72644caa"
+            "group": "4c13540e028a0f38"
           }
         ]
       }
@@ -125,7 +125,8 @@
       }
     ],
     "direction": "horizontal",
-    "width": 200
+    "width": 200,
+    "collapsed": true
   },
   "right": {
     "id": "6dbd8243553857d4",
@@ -212,32 +213,34 @@
   },
   "active": "0534f96d6fbfdc34",
   "lastOpenFiles": [
-    "Linux/CLI.md",
+    "Linux/4913",
+    "Linux/CLI.md~",
+    "Linux/exec.md",
+    "Linux/exec",
+    "Vim/match.md",
+    "Vim/Commands.md",
     "Vim/Vim.md",
+    "Linux/Lin.md",
+    "Linux/CLI.md",
+    "Git/Git.md",
     "Linux/systemd.md",
+    "Python/iteration.md",
+    "Python/modules.md",
+    "Python/Python.md",
+    "Windows/AD.md",
+    "Linux/Apps.md",
     "Linux/ranger.md",
     "Linux/archive.md",
-    "Linux/Apps.md",
     "Linux/Notice.md",
     "Linux/novigation.md",
-    "Windows/AD.md",
     "Python/decorator.md",
     "Python/db-ref.md",
     "Python/db-cons.md",
     "Python/data-base.md",
     "Python/cons.md",
     "Python/click.md",
-    "Python/Python.md",
     "Python/json.md",
-    "Python/modules.md",
     "py-sqlite-ref.md",
-    "Python/sqlite-ref.md",
-    "Python/zipfile.md",
-    "Python/oop.md",
-    "Python/magic.md",
-    "Python/Flask.md",
-    "Linux/Process.md",
-    "Linux/Bash.md",
     "Linux/novigation.md~",
     "vim--map.md~",
     "vim--string-func.md~",
@@ -246,8 +249,6 @@
     "4913",
     "systemd.md~",
     "Lin.md~",
-    "vim--find.md~",
-    "vim-ref.md~",
     "files/obs-logo.svg",
     "Untitled.canvas"
   ]
