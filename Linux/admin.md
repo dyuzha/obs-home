@@ -84,8 +84,8 @@ hostnamectl
 lsb_release
 
 # Выставить красивую иконку хоста
-$ hostnamectl --pretty set-hostname "$(perl -CO -le 'print "\x{1f389}"')"
-$ hostnamectl --pretty status
+hostnamectl --pretty set-hostname "$(perl -CO -le 'print "\x{1f389}"')"
+hostnamectl --pretty status
 🎉
 
 # Задать имя хосту
@@ -99,4 +99,10 @@ uname -a # --all
 
 # Показать все модули ядра
 lsmod
+
+# Все доступные ....
+/sys/class/net
+
+# Все доступные сетевые интерфейсы
+/etc/network/interfaces
 ```
