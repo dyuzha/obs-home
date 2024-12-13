@@ -11,17 +11,14 @@
             "id": "0534f96d6fbfdc34",
             "type": "leaf",
             "state": {
-              "type": "canvas",
+              "type": "markdown",
               "state": {
-                "file": "Untitled.canvas",
-                "viewState": {
-                  "x": -127.62935305725594,
-                  "y": -130.95720439628457,
-                  "zoom": -0.3333333333333333
-                }
+                "file": "Docker/Docker-Engine.md",
+                "mode": "source",
+                "source": false
               },
-              "icon": "lucide-layout-dashboard",
-              "title": "Untitled"
+              "icon": "lucide-file",
+              "title": "Docker-Engine"
             }
           }
         ]
@@ -73,7 +70,7 @@
                 "sortOrder": "alphabetical"
               },
               "icon": "lucide-folder-closed",
-              "title": "Files"
+              "title": "Файловый менеджер"
             }
           }
         ],
@@ -158,16 +155,21 @@
   },
   "left-ribbon": {
     "hiddenItems": {
-      "switcher:Open quick switcher": false,
-      "graph:Open graph view": false,
-      "canvas:Create new canvas": false,
-      "daily-notes:Open today's daily note": false,
-      "templates:Insert template": false,
-      "command-palette:Open command palette": false
+      "switcher:Меню быстрого перехода": false,
+      "graph:Граф": false,
+      "canvas:Создать новый холст": false,
+      "daily-notes:Сегодняшняя заметка": false,
+      "templates:Вставить шаблон": false,
+      "command-palette:Открыть палитру команд": false
     }
   },
   "active": "0534f96d6fbfdc34",
   "lastOpenFiles": [
+    "Untitled.canvas",
+    "Docker/hand.md~",
+    "Docker/hand.md",
+    "Docker/4913",
+    "Docker/namespace.md",
     "Linux/LDAP.md",
     "Linux/admin.md",
     "Linux/vps_vds.md",
@@ -180,7 +182,6 @@
     "Git/Git.md",
     "Git/Conflicts.md",
     "Git/Base.md",
-    "Untitled.canvas",
     "Linux/grep.md",
     "Linux/Lin.md",
     "Linux/CLI.md",
@@ -195,16 +196,11 @@
     "Linux/exec",
     "Vim/match.md",
     "Vim/Commands.md",
-    "Vim/Vim.md",
-    "Linux/systemd.md",
-    "Python/iteration.md",
     "Linux/novigation.md~",
     "vim--map.md~",
     "vim--string-func.md~",
     "vim-command.md~",
     "vim-ready.md~",
-    "4913",
-    "systemd.md~",
     "files/obs-logo.svg"
   ]
 }
