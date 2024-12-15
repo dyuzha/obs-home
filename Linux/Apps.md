@@ -24,3 +24,8 @@ export SERVER_IP=`hostname -I`
 # The command alias to start the browser-sync server
 alias serve="browser-sync start --server -b vimb --files . --no-notify --host $SERVER_IP --port 9000"
 ```
+
+# Установка Laravel И Vue
+```bash
+# Install NVM dash
+```
