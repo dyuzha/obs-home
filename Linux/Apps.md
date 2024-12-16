@@ -27,5 +27,12 @@ alias serve="browser-sync start --server -b vimb --files . --no-notify --host $S
 
 # Установка Laravel И Vue
 ```bash
+# Установка intelephense
+npm i intelephense -g
+
 # Install NVM dash
+
+
 ```
+
+

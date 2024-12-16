@@ -27,6 +27,12 @@
 
 ## Key binding
 ---
+### Me binds
+---
+
+
+### Share binds
+---
 >[!Note] CLI
 ```sh
 :w
