@@ -2,33 +2,30 @@
 ---
 ## Создание контроллера домена FreeIPA
 ---
-
-### Произвести настройки сетевого интерфейса
----
-```bash
-# выдать имя хосту
-hostnamectl set-hostname ipa-server.domain.local
-```
-Настроить бызовые параметры
+1. настроить бызовые параметры или воспользоваться скриптом `net_config.sh`
 ```bash
 # IP
-nmcli device modify eth0 ipv4.address 192.168.0.178
+nmcli device modify eth0 ipv4.address 192.168.0.183
 
 # Gateway
 nmcli device modify eth0 ipv4.gateway 192.168.0.1
 
 # DNS
-nmcli device modify eth0 ipv4.dns 192.168.0.178 77.88.8.8
+nmcli device modify eth0 ipv4.dns 192.168.0.183 77.88.8.8
 
 # Перезагрузка
 sudo systemctl restart networking
+```
+
+2. Настроить имя и совершить проверку
+```bash
+# выдать имя хосту
+hostnamectl set-hostname ipa-server
 
 # Проверка 
 nmcli device show eth0
 cat /etc/resolv.conf
 ```
-или воспользоваться скриптом `networ_config.sh`
-
 ### Установка и настройка FreeIPA-server
 ---
 ```bash
@@ -48,6 +45,7 @@ sudo ipactl status
 ```
 
 ### Удаление и переустановка FreeIPA-server
+---
 ```bash
 sudo astra-freeipa-server -U
 ```
