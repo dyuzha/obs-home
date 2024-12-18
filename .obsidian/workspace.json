@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Docker/Docker-Engine.md",
+                "file": "Git/Reference.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Docker-Engine"
+              "title": "Reference"
             }
           }
         ]
@@ -70,7 +70,7 @@
                 "sortOrder": "alphabetical"
               },
               "icon": "lucide-folder-closed",
-              "title": "Файловый менеджер"
+              "title": "Files"
             }
           }
         ],
@@ -155,16 +155,21 @@
   },
   "left-ribbon": {
     "hiddenItems": {
-      "switcher:Меню быстрого перехода": false,
-      "graph:Граф": false,
-      "canvas:Создать новый холст": false,
-      "daily-notes:Сегодняшняя заметка": false,
-      "templates:Вставить шаблон": false,
-      "command-palette:Открыть палитру команд": false
+      "switcher:Open quick switcher": false,
+      "graph:Open graph view": false,
+      "canvas:Create new canvas": false,
+      "daily-notes:Open today's daily note": false,
+      "templates:Insert template": false,
+      "command-palette:Open command palette": false
     }
   },
   "active": "0534f96d6fbfdc34",
   "lastOpenFiles": [
+    "Linux/net_config.sh",
+    "Git/LazyGit.md",
+    "Git/Git.md",
+    "Git/Base.md",
+    "Git/ssh.md",
     "Untitled.canvas",
     "Docker/hand.md~",
     "Docker/hand.md",
@@ -178,10 +183,7 @@
     "Linux/servers.md",
     "Linux/RAID.md",
     "Linux/kerberos.md",
-    "Git/LazyGit.md",
-    "Git/Git.md",
     "Git/Conflicts.md",
-    "Git/Base.md",
     "Linux/grep.md",
     "Linux/Lin.md",
     "Linux/CLI.md",
@@ -195,7 +197,6 @@
     "Linux/exec.md",
     "Linux/exec",
     "Vim/match.md",
-    "Vim/Commands.md",
     "Linux/novigation.md~",
     "vim--map.md~",
     "vim--string-func.md~",

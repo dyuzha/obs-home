@@ -1,23 +1,16 @@
 #!/bin/bash
 
-# Имя соединения, и устанавливаемые начальные параметры: 
 # con - Имя соединения
 # ip - адрес/маска 
-# gw - адрес шлюза , 
+# gw - адрес шлюза
 # dns - адреса DNS (Можно несколько через пробел)
 # gwroute - шлюз для статического маршрута 
 
 con="Проводное соединение 1"
-ip="192.168.0.178"
-gw="192.168.0.1"
-dns="192.168.0.178 77.88.8.8"
-gwroute=""
-
-# con - Имя соединения
-# ip - адрес/маска 
-# gw - адрес шлюза , 
-# dns - адреса DNS (Можно несколько через пробел)
-# gwroute - шлюз для статического маршрута 
+ip="192.168.0.183"
+gw="192.168.0.12"
+dns="192.168.0.183 77.88.8.8"
+# gwroute=""
 
 # Проверить наличие соединения
 if nmcli con show "$con" > /dev/null ; then
@@ -25,17 +18,17 @@ if nmcli con show "$con" > /dev/null ; then
 
 # Задать адрес и адрес шлюза
         nmcli con mod "$con" ip4 $ip gw4 $gw
-        echo "IPv4: "$ip
-        echo "GW: "$gw
+        echo "IPv4: $ip"
+        echo "GW: $gw"
 
  # Задать адреса DNS
         nmcli con mod "$con" ipv4.dns "$dns"
-        echo "DNS: "$dns
+        echo "DNS: $dns"
 
 #  Добавить статический маршрут
-        if [ $gwroute -ne "" ] ; then
+        if [ ! -v "$gwroute" ] ; then
                 nmcli con mod "$con" +ipv4.routes "192.168.1.0/24 $gwroute"
-                echo "GWroute: "$gwroute
+                echo "GWroute: $gwroute"
         else
                 echo "GWroute: Не задано"
         fi
@@ -54,4 +47,3 @@ else
        echo "Соединение «$con» не найдено, настройте адрес вручную."
         exit 1
 fi
-
