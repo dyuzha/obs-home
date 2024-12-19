@@ -38,3 +38,14 @@ le # меньше или равно
 >```
 ((a" < "$b"))
 
+## Конструкция CASE
+---
+```bash
+fruit="apple"
+
+case $fruit in
+  "apple") echo "Это яблоко";;
+  "banana") echo "Это банан";;
+  *) echo "Неизвестный фрукт";;
+esac
+```

@@ -11,14 +11,10 @@
             "id": "0534f96d6fbfdc34",
             "type": "leaf",
             "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Docker/Docker-Engine.md",
-                "mode": "source",
-                "source": false
-              },
+              "type": "empty",
+              "state": {},
               "icon": "lucide-file",
-              "title": "Docker-Engine"
+              "title": "Новая вкладка"
             }
           }
         ]
@@ -165,6 +161,11 @@
   },
   "active": "0534f96d6fbfdc34",
   "lastOpenFiles": [
+    "Docker/Docker-Engine.md",
+    "Linux/network_config.sh",
+    "Linux/IPA-server.md",
+    "Linux/IPA-client.md",
+    "Docker/architecture.md",
     "Untitled.canvas",
     "Docker/hand.md~",
     "Docker/hand.md",
@@ -192,15 +193,11 @@
     "Vim/create-operator.md",
     "Linux/4913",
     "Linux/CLI.md~",
-    "Linux/exec.md",
     "Linux/exec",
-    "Vim/match.md",
-    "Vim/Commands.md",
     "Linux/novigation.md~",
     "vim--map.md~",
     "vim--string-func.md~",
     "vim-command.md~",
-    "vim-ready.md~",
     "files/obs-logo.svg"
   ]
 }
