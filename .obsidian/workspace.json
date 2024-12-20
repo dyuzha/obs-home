@@ -165,6 +165,7 @@
   },
   "active": "0534f96d6fbfdc34",
   "lastOpenFiles": [
+    "Linux/curl.md",
     "Linux/network_config.sh",
     "Linux/net_config.sh",
     "Git/LazyGit.md",
@@ -201,7 +202,6 @@
     "Linux/novigation.md~",
     "vim--map.md~",
     "vim--string-func.md~",
-    "vim-command.md~",
     "files/obs-logo.svg"
   ]
 }

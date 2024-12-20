@@ -8,6 +8,7 @@
 [[Apps]]
 [[exec]]
 [[ops]]
+[[curl]]
 
 [[ranger]]
 
