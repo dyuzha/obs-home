@@ -14,7 +14,7 @@ npm install -g browser-sync
 browser-sync start --server --files .
 
 # Рекомендация
-alias serce="browser-sync start --server --files ."
+alias serve="browser-sync start --server --files ."
 
 # In order to access the server inside private network and test the webpage on several devices.
 # browser-sync config

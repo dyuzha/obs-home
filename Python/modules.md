@@ -3,7 +3,8 @@
 
 > **More**
 [[json]]
-[sqlite-ref](py-sqlite-ref.md)[[py-sqlite-ref]]
+[[sqlite-ref]]
+[[requests]]
 Typer
 [[click]]
 [Zip](zipfile.md) [[zipfile]]

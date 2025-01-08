@@ -1,3 +1,9 @@
+---
+id: Python
+aliases: []
+tags: []
+---
+
 [[magic]]
 [[ref]]
 [[decorator]]
@@ -5,3 +11,4 @@
 [[oop]]
 [[iteration]]
 [[import]]
+[[regular]]

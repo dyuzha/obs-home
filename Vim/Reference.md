@@ -8,6 +8,14 @@
 # Cheats
 ---
 
+## Удаленное подключение
+---
+```bash
+nvim  scp://<username>@server
+# Должны быть прокинуты ssh-ключи
+```
+
+
 ## Esc - Альтернативы
 ---
 `Ctrl-c`
@@ -26,20 +34,20 @@
 - **vimgrep** ищет строку | регулярное выражение, заключенное между символами "//" в файле или файлах \=>
 \=> Сбрасывает результаты в специальный буфер, а также открывает файл с первым найденным резултатом
 
-- **copen** открывает буфер с результатами поиска. 
+- **copen** открывает буфер с результатами поиска.
 
 - *Путь* к файлам может указывать как на один файл, так и на набор файлов.
 source : [....](https://ru.wikibooks.org/wiki/Vim)
 
-# More 
+# More
 ---
 ```vim
 Ctrl-r              "- повторить отмененное действие
 e!                  "- Отменить все изменения в текущей сессии
 ZZ                  "- Сохранить и выйти
-``` 
+```
 
-# Commands 
+# Commands
 ---
 ```vim
 :sp 			    " split
@@ -58,7 +66,7 @@ ZZ                  "- Сохранить и выйти
 # Buffer
 ---
 ```vim
-"ay                 " coppy in buffer "a" 
+"ay                 " coppy in buffer "a"
 "ad                 " delete in buffer "a"
 "ap                 " past in buffer "a"
 ```
@@ -80,43 +88,43 @@ zt              " up
 "Ctrl + wT - переместить текущее окно в собственную вкладку
 
 "-p <file_name1> <file_name2> <file_name3>  - открыть сразу несколько файлов в **табах**.
-:vim 
+:vim
 
 " открыть **табы** по шаблону (больше одного файла не открыть, по сути такое)
-:tabf <pattern> 
+:tabf <pattern>
 
 " посмотреть все **табы**
-:tabs 
+:tabs
 
 " значение **табов** по умолч.
-:set tabpagemax=10 
+:set tabpagemax=10
 
 " Открыть **файл** в новой вкладке
-:tabnew <file_name> 
+:tabnew <file_name>
 
 " Включает постоянное отображение **tabов**
-:set showtabline=2 
+:set showtabline=2
 
 " Переместить текущую вкладку на # позицию (нумерация с 0)
-:tabmove # 
+:tabmove #
 
 " Закрыть текущую вкладку и все её окна
-:tabclose либо :tabc 
+:tabclose либо :tabc
 
 " Закрыть все вкладки кроме текущей
-:tabonly либо :tabo 
+:tabonly либо :tabo
 
-" Выполнить command на всех вкладках 
-:tabdo <command> 
+" Выполнить command на всех вкладках
+:tabdo <command>
 :tabdo q " Закрывает все открытые вкладки)
 
 " Переключиться на следующую вкладку
-gt 
-:tabnext ":tabn 
+gt
+:tabnext ":tabn
 
 " Переключиться на предыдущую вкладку
-gT 
-:tabprev ":tabp 
+gT
+:tabprev ":tabp
 
 " Переключить на вкладку номер №
 №gt
@@ -169,17 +177,17 @@ f[a-z] " символ в строну
 F[a-z] " анал в обр. сторону
 
 "Сл. пред. предложение
-()              
-"Сл. пред. абзац 
-{}              
+()
+"Сл. пред. абзац
+{}
 "Перемещение ко второй скобке
-%               
+%
 "В начало функции
-[[ 				
+[[
 ```
 
 
-# change mod INSERT 
+# change mod INSERT
 ---
 
 ```vim
@@ -206,16 +214,16 @@ X                   " Удалить символ перед курсором
 ```vim
 y                   " Coppy
 s                   " del string -> insert
-c                   " del symb -> insert 
-d                   " Cut 
+c                   " del symb -> insert
+d                   " Cut
 ```
 
 # Parcur #
 ---
 ```vim
-iw                          " Слово целиком 
-v/<text><Enter><eddit-func> " Применит <eddit-func> ко всему тексту для <text> 
-<eddit-func>t<text>         " Применит <eddit-func> ко всему тексту для <text> 
+iw                          " Слово целиком
+v/<text><Enter><eddit-func> " Применит <eddit-func> ко всему тексту для <text>
+<eddit-func>t<text>         " Применит <eddit-func> ко всему тексту для <text>
 ```
 
 # Visual
