@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Docker/namespace-container.md",
+                "file": "Docker/architecture.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "namespace-container"
+              "title": "architecture"
             }
           }
         ]
@@ -165,13 +165,13 @@
   },
   "active": "0534f96d6fbfdc34",
   "lastOpenFiles": [
+    "Docker/namespace-container.md",
     "Docker/namespace.md",
     "Docker/hand.md",
     "Docker/Docker.md",
     "Docker/chroot.md",
     "Docker/architecture.md",
     "DevOps/asks.md",
-    "Docker/namespace-container.md",
     "Git/Conflicts.md",
     "Git/Reference.md",
     "Linux/cgroups-dev-cons.md",

@@ -4,11 +4,15 @@ aliases: []
 tags: []
 ---
 
-[[magic]]
 [[ref]]
-[[decorator]]
 [[modules]]
-[[oop]]
-[[iteration]]
 [[import]]
 [[regular]]
+
+[[decorator]]
+[[iteration]]
+
+
+[[oop]]
+    [[magic]]
+    [[dataclasses]]
