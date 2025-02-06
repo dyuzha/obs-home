@@ -13,15 +13,30 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Docker/architecture.md",
+                "file": "Python/zipfile.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "architecture"
+              "title": "zipfile"
+            }
+          },
+          {
+            "id": "754b774455300bad",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Base/Base.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "Base"
             }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -67,7 +82,8 @@
             "state": {
               "type": "file-explorer",
               "state": {
-                "sortOrder": "alphabetical"
+                "sortOrder": "alphabetical",
+                "autoReveal": false
               },
               "icon": "lucide-folder-closed",
               "title": "Файловый менеджер"
@@ -163,39 +179,39 @@
       "command-palette:Открыть палитру команд": false
     }
   },
-  "active": "0534f96d6fbfdc34",
+  "active": "754b774455300bad",
   "lastOpenFiles": [
+    "Bash/Bash.md",
+    "Python/modules.md",
+    "Python/click.md",
+    "Web/BEM.md",
     "Docker/namespace-container.md",
     "Docker/namespace.md",
     "Docker/hand.md",
     "Docker/Docker.md",
+    "Docker/commands.md",
     "Docker/chroot.md",
     "Docker/architecture.md",
-    "DevOps/asks.md",
-    "Git/Conflicts.md",
-    "Git/Reference.md",
+    "Linux/dotfiles.md",
+    "Linux/CLI.md",
     "Linux/cgroups-dev-cons.md",
-    "Linux/curl.md",
+    "Linux/cgroups.md",
+    "Linux/archive.md",
+    "Linux/Apps.md",
+    "Linux/admin.md",
+    "Linux/vps_vds.md",
+    "Linux/systemd.md",
+    "Linux/stored_files.md",
+    "Linux/servers.md",
+    "Linux/ranger.md",
+    "Linux/RAID.md",
+    "Linux/proxy.md",
+    "Linux/Packet-mn.md",
     "Linux/network_config.sh",
     "Linux/net_config.sh",
-    "Git/LazyGit.md",
-    "Git/Git.md",
-    "Git/Base.md",
-    "Git/ssh.md",
     "Untitled.canvas",
     "Docker/hand.md~",
     "Docker/4913",
-    "Linux/LDAP.md",
-    "Linux/admin.md",
-    "Linux/vps_vds.md",
-    "Linux/proxmox.md",
-    "Linux/proxy.md",
-    "Linux/servers.md",
-    "Linux/RAID.md",
-    "Linux/kerberos.md",
-    "Linux/grep.md",
-    "Linux/Lin.md",
-    "Linux/CLI.md",
     "Linux/4913",
     "Linux/CLI.md~",
     "Linux/exec",

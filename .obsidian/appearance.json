@@ -4,5 +4,6 @@
   "textFontFamily": "jetbrains mono",
   "monospaceFontFamily": "",
   "showViewHeader": false,
-  "theme": "moonstone"
+  "theme": "moonstone",
+  "showRibbon": false
 }
