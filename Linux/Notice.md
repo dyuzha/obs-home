@@ -1,3 +1,11 @@
+---
+id: Notice
+aliases: []
+tags: []
+---
+**Back**
+    [[!Lin]]
+
 # Standart
 ---
 ```bash
@@ -22,13 +30,13 @@
 # BackUp
 ```bash
 # сделает точную копию раздела sda на разделе sdb.
-dd if=/dev/sda of=/dev/sdb bs=64k 
+dd if=/dev/sda of=/dev/sdb bs=64k
 
 # затрёт содержимое указанного носителя нулями, чтобы информацию было невозможно восстановить.
-dd if=/dev/zero of=/dev/sdX 
+dd if=/dev/zero of=/dev/sdX
 
 # сделает загрузочный носитель из скачанного вами образа с дистрибутивом.
-dd if=~/Downloads/ubuntu.iso of=/dev/sdX bs=4M 
+dd if=~/Downloads/ubuntu.iso of=/dev/sdX bs=4M
 ```
 
 # Bind (X)

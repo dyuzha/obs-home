@@ -1,22 +1,31 @@
-**Back** 
+---
+id: pacman
+aliases: []
+tags: []
+---
+**Back**
+    [[!Lin]]
   [[Packet-mn]]
 
-## Base
+# Pacman
+---
+
+# Cases
 ---
 >[!Example]
 ```bash
 # Показывает AUR пакеты
-pacman -Qm						    
+pacman -Qm
 
 # Удаление кеша
-pacman -Scc						    
+pacman -Scc
 
 # Показывает пакеты сироты
-pacman -Qtdq						    
+pacman -Qtdq
 
 # Удаление пакетов сирот
-pacman -Qt(t)dq | pacman -Rns	
+pacman -Qt(t)dq | pacman -Rns
 
-# Remove dependencies 
-pacman -Rs							
+# Remove dependencies
+pacman -Rs
 ```

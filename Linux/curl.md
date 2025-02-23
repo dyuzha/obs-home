@@ -1,3 +1,12 @@
+---
+id: curl
+aliases: []
+tags: []
+---
+
+*Back*
+    [[!Lin]]
+
 # cURL
 ---
 **cURL** - Client URL
@@ -7,7 +16,7 @@
 
 **cURL** - Инструмент для передачи данных с сервера или на него, спомощью протоколов
 
-## Варианты применения:
+## Применение curl
 ---
 - Доступ без браузера
 - Внутри **shell**-скриптов
@@ -15,7 +24,6 @@
 
 ### 1. Получить содержание страницы HTTP(S)
 ---
-
 ```bash
 # Выполнит обычный get-запрос
 curl www.google.com
@@ -32,7 +40,6 @@ curl -O https://testdomain.com/testfile.tar.gz -O https://testdomain.com/testfil
 
 ### 2. Получение заголовков HTTP(S)
 ---
-
 ```bash
 curl -I https://www.google.com
 curl -i https://www.google.com
@@ -50,7 +57,7 @@ curl -head https://www.google.com
 curl -k https://localhost/my_test_endpoint
 ```
 
-###4. Отправка POST-запроса
+### 4. Отправка POST-запроса
 ---
 `-d` или `--data`
 
@@ -110,6 +117,5 @@ curl -F @field_name=@path/to/local_file
 # Общее время, которое потребовалось для успешного выполнения запроса
 curl -w "%{time_total}\n" -o /dev/null -s www.test.com
 ```
-
 
 source: [cloud-vk](https://cloud.vk.com/blog/10-komand-curl-kotorye-vam-sleduet-znat/)

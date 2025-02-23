@@ -1,9 +1,9 @@
 {
   "cssTheme": "Catppuccin",
   "interfaceFontFamily": "jetbrains mono",
-  "textFontFamily": "jetbrains mono",
+  "textFontFamily": "Arial Unicode MS,jetbrans mono",
   "monospaceFontFamily": "",
   "showViewHeader": false,
-  "theme": "moonstone",
+  "theme": "obsidian",
   "showRibbon": false
 }

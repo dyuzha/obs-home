@@ -1,5 +1,15 @@
->Back
->[[CLI]]
+---
+id: find
+aliases: []
+tags: []
+---
+
+*Back*
+[[!Lin]]
+
+
+# Find
+---
 
 # Syntax
 ---
@@ -8,6 +18,3 @@ find <target-area> -name "<pattern>" 2>/dev/null
 		-maxdepth n
 		-size
 ```
-
-
-

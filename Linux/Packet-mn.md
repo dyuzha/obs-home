@@ -1,7 +1,11 @@
+---
+id: Packet-mn
+aliases: []
+tags: []
+---
+**Back**
+    [[!Lin]]
 
->**Back**
->[[Lin]]
-
->**More**
-> [[pacman]]
-> [[dnf]]
+**More**
+    [[pacman]]
+    [[dnf]] (не создана)

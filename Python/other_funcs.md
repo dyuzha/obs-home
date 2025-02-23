@@ -1,8 +1,10 @@
 ---
-id: func
+id: other_funcs
 aliases: []
 tags: []
 ---
+**Back**
+    [[!Python]]
 
 # Callable(value)
 ---
@@ -41,5 +43,3 @@ zip(list1, list2)
 # isinstance(obj, type) -> True/False
 ---
 - Проверяет является ли заданный объект заданным типом данных
-
-

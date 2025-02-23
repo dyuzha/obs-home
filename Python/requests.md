@@ -1,5 +1,10 @@
-Back
-[[modules.md]]
+---
+id: requests
+aliases: []
+tags: []
+---
+**Back**
+    [[!Python]]
 
 # Requests
 ---

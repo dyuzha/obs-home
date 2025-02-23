@@ -3,6 +3,11 @@ id: patterns
 aliases: []
 tags: []
 ---
+**Back**
+    [[!Python]]
+
+## Patterns
+---
 
 1. **Factory Method** — позволяет создавать объекты, не привязываясь к конкретным классам.
 

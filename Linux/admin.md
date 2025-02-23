@@ -1,23 +1,36 @@
-source: [dmosk - Работа с пользователями в Linux](https://www.dmosk.ru/miniinstruktions.php?mini=linux-users&ysclid=m3il1ipgox493856692)
+---
+id: admin
+aliases: []
+tags: []
+---
+**Back**
+    [[!Lin]]
+
 
 # Admin-commands
+---
+Базовые команды для администрирования Linux систем
+
+source: [dmosk - Работа с пользователями в Linux](https://www.dmosk.ru/miniinstruktions.php?mini=linux-users&ysclid=m3il1ipgox493856692)
 
 ## Less
+---
 - Можно cat
   `less /etc/passwd`
 
 -Получиь строку из файла `/etc/passwd`
-  `getent passwd <username>` 
+  `getent passwd <username>`
   `>>> username:x:UserID:GroupID::/home/dir:/command/shell`
 example:
-  `>>> username:x:1001:1001::/home/username:/bin/sh` 
+  `>>> username:x:1001:1001::/home/username:/bin/sh`
 
 Проверить существование и посмотреть его идентинтификатор
 - `id <username>`
 
 
 ## Create
-- `useradd` 
+---
+- `useradd`
 Создание пользователя
   `useradd <username> [opt]`
   `passwd <username>`
@@ -28,27 +41,29 @@ example:
 
   - g - основная группа
   - G - дополнительная группа
-  - k -   
+  - k -
 
-В файле `/etc/default/useradd` есть переменная `$HOME` 
+В файле `/etc/default/useradd` есть переменная `$HOME`
   - В ней указан каталог home по умолчанию (`\home`)
 
 ## Eddit
-- `usermod` 
+---
+- `usermod`
 
 ## Delete
-- `userdel` 
+---
+- `userdel`
 
 # Chmod
 ---
 
-command | description                                      |
---------|--------------------------------------------------|
-u+x     | разрешить выполнение для владельца               |
-ugo+x   | разрешить выполнение для всех                    |
-ug+w    | разрешить запись для владельца и группы          |
-o-x     | запретить выполнение для остальных пользователей |
-ugo+rwx | разрешить все для всех                           |
+| command | description                                      |
+|---------|--------------------------------------------------|
+| u+x     | разрешить выполнение для владельца               |
+| ugo+x   | разрешить выполнение для всех                    |
+| ug+w    | разрешить запись для владельца и группы          |
+| o-x     | запретить выполнение для остальных пользователей |
+| ugo+rwx | разрешить все для всех                           |
 
 |Owner           | Groups | Other    |
 |----------------|--------|----------|
@@ -58,7 +73,7 @@ ugo+rwx | разрешить все для всех                           |
 `+` - разрешение
 `=` - присваивание
 
-примеры
+>[!Example]
 ```bash
 chmod g+w file
 chmod a-wx file
@@ -66,10 +81,10 @@ chmod go=rw
 ```
 
 # About
-
+---
 ```bash
 # Посмотреть версию
-cat /etc/*release 
+cat /etc/*release
 
 # Посмотреть проц
 lscpu

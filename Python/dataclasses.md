@@ -4,6 +4,8 @@ aliases:
   - dataclass
 tags: []
 ---
+**Back**
+    [[!Python]]
 
 # dataclasses
 ---
@@ -37,7 +39,7 @@ class Book:
     title: str
     author: str = "Unknown"
 ```
-Aнотации типо - обязательны
+Aнотации типов - обязательны
     Можно указать `Any` из модуля `Typing`
 
 На выходе получается класс с реализованными методами
@@ -51,7 +53,6 @@ Aнотации типо - обязательны
 
 ## Неизменяемый класс
 ---
->[ !example ] Неизменяемый класс
 ```python
 @dataclass(frozen=True)
 class UnFlexible:

@@ -1,5 +1,11 @@
+---
+id: grep
+aliases: []
+tags: []
+---
+
 **Back**
- [[Lin]]
+ [[!Lin]]
 
 # Syntax
 ---
@@ -9,7 +15,7 @@ grep -ri <pattern> path/to/file # поиск файла по содержимо�
 		-i 			# Case ignor
 ```
 
-# Варианты 
+# Варианты
 ---
 ```bash
 cat /var/run/dmesg.boot | grep CPU:
@@ -48,7 +54,7 @@ grep ".*" test.txt
 ```
 
 `-w` Позволяет искать по слову целиком:
->[!example] 
+>[!example]
 >**seven**eight one eight three
 > sixteen seventeen eighteen **seven**
 >        twenty **seven**

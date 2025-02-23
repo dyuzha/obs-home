@@ -3,8 +3,10 @@ id: cons
 aliases: []
 tags: []
 ---
+**Back**
+    [[!Python]]
 
-# console python
+# console Py
 ---
 
 ## Как изменить версию Python
@@ -70,4 +72,4 @@ requests==2.31.0
 urllib3==2.0.5
 ```
 
-https://pythoner.name/pip-venv
+sources: https://pythoner.name/pip-venv

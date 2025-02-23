@@ -4,39 +4,24 @@
     "type": "split",
     "children": [
       {
-        "id": "c673ae08b4a980ab",
+        "id": "94128981bfd91eca",
         "type": "tabs",
         "children": [
           {
-            "id": "0534f96d6fbfdc34",
+            "id": "aa222a6a4347c056",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Python/zipfile.md",
+                "file": "Base/BEM.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "zipfile"
-            }
-          },
-          {
-            "id": "754b774455300bad",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Base/Base.md",
-                "mode": "source",
-                "source": false
-              },
-              "icon": "lucide-file",
-              "title": "Base"
+              "title": "BEM"
             }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "vertical"
@@ -110,7 +95,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Untitled.canvas",
+                "file": "!!TEST/Kanban1.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -120,7 +105,7 @@
                 "unlinkedCollapsed": true
               },
               "icon": "links-coming-in",
-              "title": "Backlinks for Untitled"
+              "title": "Обратные ссылки для Kanban1"
             }
           },
           {
@@ -161,12 +146,22 @@
               "icon": "lucide-list",
               "title": "Outline of Untitled"
             }
+          },
+          {
+            "id": "c0769da0cac71f0d",
+            "type": "leaf",
+            "state": {
+              "type": "calendar",
+              "state": {},
+              "icon": "calendar-with-checkmark",
+              "title": "Calendar"
+            }
           }
         ]
       }
     ],
     "direction": "horizontal",
-    "width": 300,
+    "width": 200,
     "collapsed": true
   },
   "left-ribbon": {
@@ -176,48 +171,49 @@
       "canvas:Создать новый холст": false,
       "daily-notes:Сегодняшняя заметка": false,
       "templates:Вставить шаблон": false,
-      "command-palette:Открыть палитру команд": false
+      "command-palette:Открыть палитру команд": false,
+      "obsidian-kanban:Создать новую доску": false
     }
   },
-  "active": "754b774455300bad",
+  "active": "cbbada217b0f03c6",
   "lastOpenFiles": [
-    "Bash/Bash.md",
-    "Python/modules.md",
-    "Python/click.md",
-    "Web/BEM.md",
-    "Docker/namespace-container.md",
-    "Docker/namespace.md",
-    "Docker/hand.md",
-    "Docker/Docker.md",
-    "Docker/commands.md",
-    "Docker/chroot.md",
-    "Docker/architecture.md",
-    "Linux/dotfiles.md",
-    "Linux/CLI.md",
-    "Linux/cgroups-dev-cons.md",
-    "Linux/cgroups.md",
-    "Linux/archive.md",
-    "Linux/Apps.md",
-    "Linux/admin.md",
+    "Python/!Python.md~",
+    "Python/patterns.md~",
+    "Python/import.md~",
+    "Python/4913",
+    "Python/other_funcs.md~",
+    "Python/other_funcs.md",
+    "Python/other_func.md~",
+    "Python/other_func.md",
+    "Python/func.md~",
+    "Python/cons.md~",
+    "Python/Flask.md~",
+    "Base/!!Base.md~",
+    "Base/api.md",
+    "Base/digital-inf.md",
+    "Base/proxy.md",
+    "Base/proxmox.md",
+    "Base/web-servers.md",
+    "Base/regular.md",
+    "Base/RAID.md",
+    "Databases/SQLite.md",
+    "DevOps/hand.md",
+    "DevOps/architecture.md",
+    "Linux/!Lin.md",
     "Linux/vps_vds.md",
     "Linux/systemd.md",
     "Linux/stored_files.md",
-    "Linux/servers.md",
-    "Linux/ranger.md",
-    "Linux/RAID.md",
-    "Linux/proxy.md",
+    "Linux/process.md",
+    "Linux/pacman.md",
     "Linux/Packet-mn.md",
-    "Linux/network_config.sh",
-    "Linux/net_config.sh",
+    "Linux/oom-killer.md",
+    "Linux/More-apps.md",
+    "Linux/Memory.md",
+    "Linux/kerberos.md",
+    "Linux/IPA-server.md",
+    "Linux/IPA-client.md",
     "Untitled.canvas",
-    "Docker/hand.md~",
-    "Docker/4913",
-    "Linux/4913",
-    "Linux/CLI.md~",
-    "Linux/exec",
-    "Linux/novigation.md~",
-    "vim--map.md~",
-    "vim--string-func.md~",
+    "Python/regular.md~",
     "files/obs-logo.svg"
   ]
 }

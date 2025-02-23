@@ -1,10 +1,12 @@
-\**Back**
-- [[modules]] [тык](py-modules.md)
+---
+id: zipfile
+aliases: []
+tags: []
+---
 
-**More**
-- [[zip]] [тык](zip.md)
+**Back**
+    [[!Python]]
 
-Источник: [Metanit - запись и чтение архивных zip-файлоф](https://metanit.com/python/tutorial/4.7.php)
 # Class ZipFile
 ---
 ## Параметры
@@ -17,7 +19,7 @@
     - `ZIP_BZIP2`: архивация без сжатия (знач. по умолч.)
     - `ZIP_LZMA`: архивация без сжатия (знач. по умолч.)
 - `allowZip64`: если равно *True*, то *zip*-файл мб больше 4 гб
-- `compresslevel`: уровень сжатия при записи файла. 
+- `compresslevel`: уровень сжатия при записи файла.
     - Для типов сжатия ZIP_STORED и ZIP_LZMA не применяется.
     - Для типа zip_deflated доп. знач. [0-9]
     - Для типа zip_ BZIP доп. знач. [1-9]
@@ -40,6 +42,7 @@
 
 # Действия
 ---
+
 ### Create and close file
 ---
 ```python
@@ -55,17 +58,14 @@ myzip.close()
 with ZipFile("metanit.zip", "w") as myzip:
     pass
 ```
+
 ### Writing file
 ---
 ```python
-write(filename, 
+write(filename,
       arcname=None,         # произвольное имя для файла внутри архива
-      compress_type=None,   
+      compress_type=None,
       compresslevel=None)`
 ```
 
-
-
-
-
-
+Источник: [Metanit - запись и чтение архивных zip-файлоф](https://metanit.com/python/tutorial/4.7.php)

@@ -1,5 +1,11 @@
+---
+id: json
+aliases: []
+tags: []
+---
+
 **Back**
-	[[modules]]
+	[[!Python]]
 
 # Methods
 ---

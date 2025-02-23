@@ -1,9 +1,18 @@
-**back**
-     [[CLI]]
+---
+id: novigation
+aliases: []
+tags: []
+---
+
+*back*
+  [[!Lin]]
 
 # Навигация
+---
 
 ## Статический режим
+---
+
 ```bash
 # Выводит историю команд
 history
@@ -13,13 +22,13 @@ histoty list
 !<№_cmd>
 
 # Можно использовать для того чтобы дополнить предыдущую команду
-sudo !<№_cmd> | tail 
+sudo !<№_cmd> | tail
 
 # Можно обращаться к команде по отрицательному индексу
-sudo !<-№_cmd> | tail 
+sudo !<-№_cmd> | tail
 #zsh автоматически заменит конструкцию !<№> на команду, после нажатия на пробел
 
-# Выведет команду по номеру 
+# Выведет команду по номеру
 !<№_cmd>:p
 
 # Подставляет аргументы последней команды
@@ -29,17 +38,16 @@ sudo !<-№_cmd> | tail
 !:<№_arg>
 
 # Подставит саму команду
-!:0 
+!:0
 
 # Последний аргумент
-!:$  
+!:$
 
 # Первый аргумент
-!:^ 
+!:^
 
 # Диапазон аргументов
-!:2-5 
-
+!:2-5
 ```
 
 ## Итерактивный режим
@@ -47,30 +55,30 @@ sudo !<-№_cmd> | tail
 ```bash
 # Листает команды в обратном направлении
 # Можно использовать в середине команды
-Alt + .  		
+Alt + .
 
 # Поиск команды
 Ctrl + r
-# что бы отредактировать нажимаем -> или <- 
-# Alt+r - Reset command after edit                 
+# что бы отредактировать нажимаем -> или <-
+# Alt+r - Reset command after edit
 ```
 
- | Cmd    | Description                      |
- |--------|----------------------------------|
- | Ctrl+p | - Copy last command              |
- | Ctrl+o | - Exec commands from clipboard   |
- | Ctrl+a | - Begin string                   |
- | Ctrl+e | - End string                     |
- | Ctrl+d | - delete right symbol            |
- | Ctrl+b | - `-> symbols` (alt = words)       |
- | Ctrl+f | - `<- symbols`                     |
- | Ctrl+u | - Cut LEFT                       |
- | Ctrl+k | - Cut RIGHT                      |
- | Ctrl+w | - Cut WORD                       |
- | Ctrl+y | - Insert                         |
- | Ctrl+t | - Change 2 symbols (Alt = words) |
- | Ctrl+l | - Clean terminal                 |
- | Ctrl+v | -  символ                        |
+| Cmd    | Description                      |
+|--------|----------------------------------|
+| Ctrl+p | - Copy last command              |
+| Ctrl+o | - Exec commands from clipboard   |
+| Ctrl+a | - Begin string                   |
+| Ctrl+e | - End string                     |
+| Ctrl+d | - delete right symbol            |
+| Ctrl+b | - `-> symbols` (alt = words)       |
+| Ctrl+f | - `<- symbols`                     |
+| Ctrl+u | - Cut LEFT                       |
+| Ctrl+k | - Cut RIGHT                      |
+| Ctrl+w | - Cut WORD                       |
+| Ctrl+y | - Insert                         |
+| Ctrl+t | - Change 2 symbols (Alt = words) |
+| Ctrl+l | - Clean terminal                 |
+| Ctrl+v | -  символ                        |
 
 
 ```bash

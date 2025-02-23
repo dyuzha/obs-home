@@ -1,6 +1,22 @@
-# Настройка КД FreeIPA на Astra Linux
 ---
-## Создание контроллера домена FreeIPA
+id: IPA-server
+aliases: []
+tags: []
+---
+**Back**
+    [[!Lin]]
+
+**More**
+    [[IPA-client|ipa-client]]
+    [[LDAP]]
+
+# IPA-server
+---
+
+## Настройка КД FreeIPA на Astra Linux
+---
+
+### Создание контроллера домена FreeIPA
 ---
 1. настроить бызовые параметры или воспользоваться скриптом `net_config.sh`
 ```bash
@@ -22,11 +38,11 @@ sudo systemctl restart networking
 # выдать имя хосту
 hostnamectl set-hostname ipa-server
 
-# Проверка 
+# Проверка
 nmcli device show eth0
 cat /etc/resolv.conf
 ```
-### Установка и настройка FreeIPA-server
+#### Установка и настройка FreeIPA-server
 ---
 ```bash
 # Установить необходимые пакеты
@@ -44,7 +60,7 @@ sudo astra-freeipa-server -o -n ipa-server -d domain.local
 sudo ipactl status
 ```
 
-### Удаление и переустановка FreeIPA-server
+#### Удаление и переустановка FreeIPA-server
 ---
 ```bash
 sudo astra-freeipa-server -U

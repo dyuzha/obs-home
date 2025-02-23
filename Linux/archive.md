@@ -1,11 +1,14 @@
-**Back** 
-  [[Lin]]
-
-# Архивирование
 ---
+id: archive
+aliases: []
+tags: []
+---
+**Back**
+    [[!Lin]]
+
 В линукс отдельно выполняется
-1. сжатие (tar)
-2. архивация (zip, bz, xz, lzma и тд)
+1. Архивация (tar)
+2. Сжатие (zip, bz, xz, lzma и тд)
 
 ## Tar
 ---
@@ -43,8 +46,8 @@ tar -xvf archive.tar --wildcards'*.php'
 tar -xvf archive.tar -C /path/to/dir # (Default ./)
 ```
 
-**Альтернативные способы**
-
+## Альтернативные способы
+---
 ```bash
 # Создание архива
 tar -cvf archive.tar /path/to/file

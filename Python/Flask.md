@@ -1,5 +1,16 @@
-# Создание базы данных
+---
+id: Flask
+aliases: []
+tags: []
+---
+**Back**
+    [[!Python]]
 
+# Flask
+---
+
+### Создание бд
+---
 ```python
 from file import app, db
 app.app_context().push()

@@ -1,21 +1,31 @@
+---
+id: Conflicts
+aliases: []
+tags: []
+---
 **Back**
 	[[Git]]
+
 # Решение конфликтов
 ---
+
 ## Причины конфликтов:
 ---
-- Вносимые конкурирующие изменения в ту же строку файла 
-- Один и тот же файл: 
+- Вносимые конкурирующие изменения в ту же строку файла
+- Один и тот же файл:
     - изменили (один пользователь)
     - и удалили (другой пользователь)
 
 ## Способ разрешить конфликты.
+---
 1. Открыть терминал
 2. Перейти в локальный *Git* репозиторий.
 3. `git status` - так можно будет увидеть в каком файле(ах) произошел конфлинкт слияния.
-4. Открыть данный файл в редакторе.
+4. Открыть файл с конфлиутом в редакторе.
 5. Расшифровка:
-> [!Summary] Conflicts.file
+
+> [!Summary] Conflicts file
+
 ```bash
 Общее..
 <<<<<< HEAD
@@ -25,6 +35,6 @@
 >>>>>> branch-name
 ```
 6. Необходимо привести данный файл в желаемый вид
-	-> После чего проиндексировать и закомитить
+	=> После чего проиндексировать и закомитить
 
-Источник: [Github - Разрешение конфликтов слияния](https://docs.github.com/ru/pull-requests/collaborating-with-pull-requests/addressing-merge-conflicts/resolving-a-merge-conflict-using-the-command-line)
+Источник: [GitHub - Разрешение конфликтов слияния](https://docs.github.com/ru/pull-requests/collaborating-with-pull-requests/addressing-merge-conflicts/resolving-a-merge-conflict-using-the-command-line)

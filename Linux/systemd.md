@@ -1,4 +1,12 @@
-# Base
+---
+id: systemd
+aliases: []
+tags: []
+---
+**Back**
+    [[!Lin]]
+
+# Systemd
 ---
 **Systemd** состоит из 3-ех элементов:
 - **systemd** - менеджер системы и сервисов
@@ -14,7 +22,7 @@
 ---
 `SYSTEMD_LESS` -  переменная обознаяющая как `less` работать
 `SYSTEMD_LESS=FRSZMK` - по умолчанию
-    - `S` - обрезать то что не вмещается в экран 
+    - `S` - обрезать то что не вмещается в экран
         - *если убрать, то строки будут переноситься*
             `SYSTEMD_LESS=FRSZMK journalctl`
 
@@ -38,6 +46,7 @@
 
 - Если `/var/log/journal/` существует, журналы будут сохраняться в нем на постоянной основе *(но если будет удале, то Systemd его пересоздаст автоматически и вместо этого будет вести журнал снова в `/run/systemd/journal` без сохранения)*
     - Исправить это можно, добавив `Storage=persistent` в конфиг и перезапустить `systemd-journald.servise` *(или перезагрузиться)*
+
 ```bash
 mkdir /var/log/journal
 systemd-tmpfiles --create --prefix /var/log/journal
@@ -51,19 +60,19 @@ systemctl restart systemd-journald
 # Commands
 ---
 **journalctl** - команда для просмотров логов
-    - Выведет все записи из всех журналов, начиная с того момента как система начала загружаться 
+    - Выведет все записи из всех журналов, начиная с того момента как система начала загружаться
 
 - По умолч. выводит в формате системного времени
     `--utc` - просмотр логов в формате **UTC**
 
 - Уровни важности
     `-p <lvl>`
-    
+
     Уровни важности:
-        - `0:`emergency - неработоспособность системы 
+        - `0:`emergency - неработоспособность системы
         - `1:`alert - предупреждения, требующие немедленного вмешательства
         - `2:`critical - критическое состояние
-        - `3`:errors 
+        - `3`:errors
         - `4`:warning
         - `5`:notice (уведомления)
         - `6`:info (информационные сообщения)
@@ -74,11 +83,12 @@ systemctl restart systemd-journald
 
 ```bash
 # просмотреть список журналов
-`journalctl --list-boots` 
+`journalctl --list-boots`
 >>> <numb> <buutID> <start date> <end date>
  ```
 `<numb>` - номер журнула *(который можно использовать для просмотра определенной сесси)*
 `<bootID>` - *(так же можно использовать для просмотра отдельного журнала)*
+
 >[!Example]
 ```bash
 -1 0aa7f5...bc473 Mon 2024-08-05 03:00:00 MSK Sat 2024-09-14 13:45:50 MSK
@@ -87,27 +97,27 @@ systemctl restart systemd-journald
 
 ```bash
 # просмотреть список журналов
-journalctl --list-boots 
+journalctl --list-boots
 
 # просмотр журнала конкретной сессии
-journalctl --list-boots	-b <numb-session> 
+journalctl --list-boots	-b <numb-session>
 	-b 0 # текущая
 	-b -1 # предыдущая
-	
+
 # Указать конкретный файл
-journalctl --file </var/log/journal/ewefq...f3f> 
+journalctl --file </var/log/journal/ewefq...f3f>
 
 # Просмотр журнала с ... [по ...]
-journalctl --since "<date [time]>" [--until "<date [time]>"] 
+journalctl --since "<date [time]>" [--until "<date [time]>"]
 
 # Например
 journalctl --since "2020-12-17" --until "2020-12-18 10:00:00"
 
 # вчерашнего дня
-journalctl --since yesterday 
+journalctl --since yesterday
 
 # c 9:00 по час назад
-journalctl --since 09:00 --until "1 hour ago" 
+journalctl --since 09:00 --until "1 hour ago"
 
  -k - просмотр сообщений ядра
  -f - следить за появлением новых сообщений *(аналог tail -f)*
@@ -118,17 +128,17 @@ journalctl --since 09:00 --until "1 hour ago"
 ## Удаление архивных журналов
 ```bash
 # Удалить с помощью системного вызова
-rm <журнал> 
+rm <журнал>
 
 # удалить журналы оставив последний 100мб
-rm --vacuum-size=100M 
+rm --vacuum-size=100M
 
 # удалить журналы оставив только за последние 7д
-rm --vacuum-time=7d 
+rm --vacuum-time=7d
 ```
 
 ## Просмотр определенного сервиса/приложения
-```bash 
+```bash
 # Просмотреть определенный сервис/приложение
 journalctl -u <service-name/app-name> # указав имя
 journalctl <исполняемый файл> # указав его исполняемый файл

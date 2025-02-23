@@ -1,3 +1,11 @@
+---
+id: vps_vds
+aliases: []
+tags: []
+---
+**Back**
+    [[!Base]]
+
 # VPS/VDS
 ---
 VPS - Virtual Private Server

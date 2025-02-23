@@ -1,3 +1,0 @@
-**More** 
-  [[digital-inf]]
-  [[regular]]

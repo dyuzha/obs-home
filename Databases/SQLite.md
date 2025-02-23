@@ -1,6 +1,14 @@
-Back \=> [[data-base]](data-base.md)
+---
+id: sqlite
+aliases: []
+tags: []
+---
+**Back**
 
-# Data types 
+# SQLite
+---
+
+## Data types
 ---
 
 | type    | description                                      |
@@ -15,7 +23,7 @@ Back \=> [[data-base]](data-base.md)
 
 # Ограничения
 ---
-## PRIMARY KEY 
+## PRIMARY KEY
 ```sqlite
 id INTEGER PRIMARY KEY
 ```
@@ -50,7 +58,7 @@ id INTEGER PRIMARY KEY AUTOINCREMENT
 ```
 - Автоматически увеличивает данное число на 1
 
-## UNIQUE 
+## UNIQUE
 ```sqlite
 email TEXT UNIQUE
 ```
@@ -75,7 +83,7 @@ age INTEGER DEFAULT 18
 - Выставляет значение по умолчанию
 
 
-## NOT / NOT NULL 
+## NOT / NOT NULL
 ```sqlite
 name TEXT NOT NULL,
 ```
@@ -83,7 +91,7 @@ name TEXT NOT NULL,
 
 >[!info] По умолчанию любой столбец, если он не представляет первичный ключ,может принимать значение NULL.
 
-## CHECK 
+## CHECK
 - Создает ограничение для диапазона значений
 ```sqlite
 name TEXT NOT NULL CHECK(name != '')
@@ -101,7 +109,7 @@ CREATE TABLE users
 );
 ```
 
-## CONSTRAINT 
+## CONSTRAINT
 - С помощью данного оператора можно задавать имена ограничениям.
     - Для последующего управления ими.
 
@@ -125,7 +133,7 @@ CREATE TABLE users
 ## Syntax
 ```python
 [CONSTRAINT имя_ограничения] - # имя для ограничения внешнего ключа
-FOREIGN KEY (col1, col2, ... colN) 
+FOREIGN KEY (col1, col2, ... colN)
 REFERENCES main_tb (col_main_tb1, col_main_tb2, ... col_main_tbN)
 [ON DELETE действие] # задают действие при удалении строки из гл таблицы
 [ON UPDATE действие] # задают действие при изменении строки из гл таблицы
@@ -143,15 +151,15 @@ REFERENCES main_tb (col_main_tb1, col_main_tb2, ... col_main_tbN)
 ## INSERT
 >[!Note] Sample
 ```sqlite
-INSERT INTO <table-name> 
+INSERT INTO <table-name>
     (col1, col2, ..., colN)
-VALUES 
+VALUES
     (val1, val2, ..., valN);
 ```
 - Добавление данных в бд
 >[!Info] При добавлении данных необязательно указывать значения для всех столбцов!
 > - Можно опускать при добавлении такие столбцы, которые поддерживают **NULL** / **default**
-> - Можно явным образом для них указывать **NULL** 
+> - Можно явным образом для них указывать **NULL**
 
 >[!Example] Если все значения в таблице поддерживают **NULL** и **Default**, то строку можно добвыить сл. способом.
 ```sqlite
@@ -160,8 +168,8 @@ INSERT INTO <name-tb> DEFAULT VALUES;
 ### Множественное добавление
 >[!Example]
 ```
-INSERT INTO 
-    users(name, age) 
+INSERT INTO
+    users(name, age)
 VALUES
     ('Tom', 16),
     ('Bob', 24),
@@ -171,7 +179,7 @@ VALUES
 ## SELECT
 ```sqlite
 SELECT <attr>
-FROM 
+FROM
 ORDER BY col1 [ASC | DESC], column2 [ASC | DESC]
 WHERE
 LIMIT
@@ -260,6 +268,3 @@ age INTEGER
 ```sqlite
 DROP TABLE IF EXISTS [TABLE-NAME]
 ```
-
-
-

@@ -3,6 +3,8 @@ id: pathlib
 aliases: []
 tags: []
 ---
+**Back**
+    [[!Python]]
 
 # Pathlib
 ---
