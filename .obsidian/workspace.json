@@ -20,8 +20,21 @@
               "icon": "lucide-file",
               "title": "BEM"
             }
+          },
+          {
+            "id": "3775d28686f8f758",
+            "type": "leaf",
+            "state": {
+              "type": "release-notes",
+              "state": {
+                "currentVersion": "1.8.7"
+              },
+              "icon": "lucide-book-up",
+              "title": "Release Notes 1.8.7"
+            }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -175,8 +188,13 @@
       "obsidian-kanban:Создать новую доску": false
     }
   },
-  "active": "cbbada217b0f03c6",
+  "active": "3775d28686f8f758",
   "lastOpenFiles": [
+    "dockerfile.md~",
+    "dockerfile.md",
+    "DevOps/hand.md~",
+    "DevOps/namespace.md~",
+    "DevOps/Docker.md~",
     "Python/!Python.md~",
     "Python/patterns.md~",
     "Python/import.md~",
@@ -186,9 +204,6 @@
     "Python/other_func.md~",
     "Python/other_func.md",
     "Python/func.md~",
-    "Python/cons.md~",
-    "Python/Flask.md~",
-    "Base/!!Base.md~",
     "Base/api.md",
     "Base/digital-inf.md",
     "Base/proxy.md",
@@ -211,9 +226,7 @@
     "Linux/Memory.md",
     "Linux/kerberos.md",
     "Linux/IPA-server.md",
-    "Linux/IPA-client.md",
     "Untitled.canvas",
-    "Python/regular.md~",
     "files/obs-logo.svg"
   ]
 }
