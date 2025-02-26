@@ -81,8 +81,8 @@ git clone <url> [new_name]
 
 Необходимо указать *имя* и *e-mail*
 ```
-git config --global user.name "duzha"
-git config --global user.email matvey10d@gmail.com
+git config --global user.name "wefwefwe"
+git config --global user.email wefwef@gmail.com
 ```
 
 >[!Warning]
