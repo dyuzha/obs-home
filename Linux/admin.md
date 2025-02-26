@@ -30,29 +30,31 @@ example:
 
 ## Create
 ---
-- `useradd`
+`useradd`
 Создание пользователя
   `useradd <username> [opt]`
   `passwd <username>`
 *Opt:*
-  - b --base-dir
-  - c --comment (любая текстовая строка)
-    - зачастую имя и фамилия
 
-  - g - основная группа
-  - G - дополнительная группа
-  - k -
+-b --base-dir (изменить опциональное имя)
+-m - Создать домашнюю директорию
+-c --comment (любая текстовая строка)
+*зачастую имя и фамилия*
+
+-g - основная группа
+-G - дополнительная группа
+-k -
 
 В файле `/etc/default/useradd` есть переменная `$HOME`
   - В ней указан каталог home по умолчанию (`\home`)
 
 ## Eddit
 ---
-- `usermod`
+`usermod`
 
 ## Delete
 ---
-- `userdel`
+`userdel`
 
 # Chmod
 ---
