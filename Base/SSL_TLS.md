@@ -1,6 +1,9 @@
 **Back**
     [[!Base]]
 
+**More**
+    [[TLS_cert]]
+
 # SSL и TLS
 ---
 Secure Socket Layer и Transport Layer Security
