@@ -1,0 +1,11 @@
+
+# Запись в файлы
+---
+
+## Дозаписать в файл с правими root
+---
+```bash
+echo "some text" | sudo tee -a /file/with/sudo/permited
+# or
+sudo sh -c `echo "some text" >> /file/with/sudo/permited`
+```
