@@ -256,4 +256,78 @@ my.my_method()
 # This is the my_method method.
 ```
 
+## Кейсы
+---
+
+### Добавление наследования при помощи метакласса
+---
+```python
+
+# Наследование
+class DBMeta(type):
+    """Базовый Метакласс"""
+    def __new__(cls, name, bases, attrs):
+        bases = (DeclarativeBase,) + bases
+        return super().__new__(cls, name, bases, attrs)
+
+    def __init__(cls, name, bases, attrs):
+        super().__init__(name, bases, attrs)
+        cls._db_url = ''
+        cls._engine = create_engine(cls._db_url, echo=False)
+        cls._session = sessionmaker(bind=cls._engine)
+
+```
+
+
+### Метакласс для автоматического логирования
+---
+```python
+import logging
+from functools import wraps
+
+# Настройка логирования
+logging.basicConfig(
+    level=logging.INFO,
+    format='%(asctime)s - %(name)s - %(levelname)s - %(message)s'
+)
+
+def log_function_call(func):
+    """Декоратор для логирования вызовов функций."""
+    @wraps(func)
+    def wrapper(*args, **kwargs):
+        logging.info(f"Calling {func.__name__} with args={args} kwargs={kwargs}")
+        result = func(*args, **kwargs)
+        logging.info(f"{func.__name__} returned {result}\n")
+        return result
+    return wrapper
+
+
+class LoggingMeta(type):
+    """
+    Метакласс для автоматического применения декоратора логирования
+    ко всем методам класса.
+    """
+    def __new__(cls, name, bases, attrs):
+        for attr_name, attr_value in attrs.items():
+            if callable(attr_value):
+                attrs[attr_name] = log_function_call(attr_value)
+        return super().__new__(cls, name, bases, attrs)
+
+
+```
+
+
+### Добавление атрибутов класса
+---
+```python
+class DBMeta(type):
+    """Базовый Метакласс"""
+    def __init__(cls, name, bases, attrs):
+        super().__init__(name, bases, attrs)
+        cls._db_url = "override_me" # Аттрибут класса
+        cls._engine = create_engine(cls._db_url, echo=False) # Аттрибут класса
+        cls._session = sessionmaker(bind=cls._engine) # Аттрибут класса
+```
+
+
 sources: [Habr - Метаклассы в Python](https://abr.com/ru/companies/piter/articles/592127)

@@ -3,7 +3,6 @@ id: json
 aliases: []
 tags: []
 ---
-
 **Back**
 	[[!Python]]
 

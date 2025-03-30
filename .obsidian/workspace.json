@@ -32,9 +32,21 @@
               "icon": "lucide-book-up",
               "title": "Release Notes 1.8.7"
             }
+          },
+          {
+            "id": "1c0478e3ab895a01",
+            "type": "leaf",
+            "state": {
+              "type": "release-notes",
+              "state": {
+                "currentVersion": "1.8.9"
+              },
+              "icon": "lucide-book-up",
+              "title": "Release Notes 1.8.9"
+            }
           }
         ],
-        "currentTab": 1
+        "currentTab": 2
       }
     ],
     "direction": "vertical"
@@ -188,22 +200,35 @@
       "obsidian-kanban:Создать новую доску": false
     }
   },
-  "active": "3775d28686f8f758",
+  "active": "1c0478e3ab895a01",
   "lastOpenFiles": [
+    "Powershell/test2.ps1",
+    "Powershell/test.ps1",
+    "Powershell/ref.md",
+    "Powershell/power.md",
+    "Powershell/lang.md",
+    "Powershell/gui.ps1",
+    "Powershell/funcs.md",
+    "Powershell/data_types.md",
+    "Powershell/cicles_operators.md",
+    "Powershell/admin.md",
+    "Powershell",
+    "Bash/Write_file.md",
+    "Python/!Python.md~",
+    "Python/composite.md",
+    "Python/mixin.md~",
+    "Python/fithes.md",
+    "Python/mixin.md",
+    "Python/metaclass.md~",
+    "Python/slots.md~",
+    "Python/slots.md",
+    "Python/iter.md~",
+    "Python/sqlalchemy.md~",
+    "Python/sqlalchemy.md",
     "dockerfile.md~",
     "dockerfile.md",
-    "DevOps/hand.md~",
-    "DevOps/namespace.md~",
-    "DevOps/Docker.md~",
-    "Python/!Python.md~",
-    "Python/patterns.md~",
-    "Python/import.md~",
-    "Python/4913",
-    "Python/other_funcs.md~",
     "Python/other_funcs.md",
-    "Python/other_func.md~",
     "Python/other_func.md",
-    "Python/func.md~",
     "Base/api.md",
     "Base/digital-inf.md",
     "Base/proxy.md",
@@ -213,19 +238,6 @@
     "Base/RAID.md",
     "Databases/SQLite.md",
     "DevOps/hand.md",
-    "DevOps/architecture.md",
-    "Linux/!Lin.md",
-    "Linux/vps_vds.md",
-    "Linux/systemd.md",
-    "Linux/stored_files.md",
-    "Linux/process.md",
-    "Linux/pacman.md",
-    "Linux/Packet-mn.md",
-    "Linux/oom-killer.md",
-    "Linux/More-apps.md",
-    "Linux/Memory.md",
-    "Linux/kerberos.md",
-    "Linux/IPA-server.md",
     "Untitled.canvas",
     "files/obs-logo.svg"
   ]
