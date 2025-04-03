@@ -37,12 +37,14 @@
             "id": "1c0478e3ab895a01",
             "type": "leaf",
             "state": {
-              "type": "release-notes",
+              "type": "markdown",
               "state": {
-                "currentVersion": "1.8.9"
+                "file": "Git/Base.md",
+                "mode": "source",
+                "source": false
               },
-              "icon": "lucide-book-up",
-              "title": "Release Notes 1.8.9"
+              "icon": "lucide-file",
+              "title": "Base"
             }
           }
         ],
@@ -202,6 +204,21 @@
   },
   "active": "1c0478e3ab895a01",
   "lastOpenFiles": [
+    "Linux/fstab_conf.md~",
+    "Linux/4913",
+    "Linux/fstab_conf.md",
+    "Linux/sshfs.md~",
+    "Linux/!Lin.md~",
+    "Linux/fail2ban.md~",
+    "Linux/sshfs.md",
+    "files/obs-logo.svg",
+    "DevOps/Docker.md",
+    "DevOps/chroot.md",
+    "Bash/Bash.md",
+    "Bash/Write_file.md",
+    "Linux/fail2ban.md",
+    "Linux/scp.md~",
+    "Linux/scp.md",
     "Powershell/test2.ps1",
     "Powershell/test.ps1",
     "Powershell/ref.md",
@@ -213,32 +230,17 @@
     "Powershell/cicles_operators.md",
     "Powershell/admin.md",
     "Powershell",
-    "Bash/Write_file.md",
     "Python/!Python.md~",
     "Python/composite.md",
-    "Python/mixin.md~",
     "Python/fithes.md",
     "Python/mixin.md",
-    "Python/metaclass.md~",
-    "Python/slots.md~",
     "Python/slots.md",
-    "Python/iter.md~",
-    "Python/sqlalchemy.md~",
     "Python/sqlalchemy.md",
-    "dockerfile.md~",
     "dockerfile.md",
     "Python/other_funcs.md",
     "Python/other_func.md",
     "Base/api.md",
     "Base/digital-inf.md",
-    "Base/proxy.md",
-    "Base/proxmox.md",
-    "Base/web-servers.md",
-    "Base/regular.md",
-    "Base/RAID.md",
-    "Databases/SQLite.md",
-    "DevOps/hand.md",
-    "Untitled.canvas",
-    "files/obs-logo.svg"
+    "Untitled.canvas"
   ]
 }
