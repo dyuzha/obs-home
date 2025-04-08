@@ -184,3 +184,4 @@ dunder methods (dunder underscope)
 
 [[Flask]]
 
+[[pydantic]]

@@ -204,6 +204,8 @@
   },
   "active": "1c0478e3ab895a01",
   "lastOpenFiles": [
+    "Python/pydantic.md~",
+    "Python/pydantic.md",
     "dockerfile.md",
     "make.md",
     "TEST.md",
@@ -239,8 +241,6 @@
     "Powershell/admin.md",
     "Powershell",
     "Python/composite.md",
-    "Python/fithes.md",
-    "Python/mixin.md",
-    "Python/slots.md"
+    "Python/fithes.md"
   ]
 }
