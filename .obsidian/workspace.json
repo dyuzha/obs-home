@@ -204,6 +204,14 @@
   },
   "active": "1c0478e3ab895a01",
   "lastOpenFiles": [
+    "dockerfile.md",
+    "make.md",
+    "TEST.md",
+    "test2.md",
+    "Untitled.canvas",
+    "Base/proxmox.md",
+    "Base/BEM.md",
+    "Git/Base.md",
     "Linux/fstab_conf.md~",
     "Linux/4913",
     "Linux/fstab_conf.md",
@@ -230,17 +238,9 @@
     "Powershell/cicles_operators.md",
     "Powershell/admin.md",
     "Powershell",
-    "Python/!Python.md~",
     "Python/composite.md",
     "Python/fithes.md",
     "Python/mixin.md",
-    "Python/slots.md",
-    "Python/sqlalchemy.md",
-    "dockerfile.md",
-    "Python/other_funcs.md",
-    "Python/other_func.md",
-    "Base/api.md",
-    "Base/digital-inf.md",
-    "Untitled.canvas"
+    "Python/slots.md"
   ]
 }
