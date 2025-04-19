@@ -159,6 +159,10 @@ dunder methods (dunder underscope)
 ## Модули
 ---
 
+### Тестирование
+---
+[[unittest]]
+
 ### Встроенные модули
 ---
 [[dataclasses]]
