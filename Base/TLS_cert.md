@@ -3,9 +3,8 @@ id: TLS_cert
 aliases: []
 tags: []
 ---
-
 **Back**
-    [[!Base]]
+    [[!!Base]]
 
 # TLS сертификат
 ---
