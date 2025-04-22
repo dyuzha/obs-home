@@ -204,6 +204,9 @@
   },
   "active": "1c0478e3ab895a01",
   "lastOpenFiles": [
+    "Python/4913",
+    "Python/poetry.md~",
+    "Python/poetry.md",
     "Linux/!Lin.md~",
     "Linux/strace.md",
     "Linux/pipe.md~",
@@ -217,7 +220,6 @@
     "Base/api.md~",
     "Base/digital-inf.md~",
     "Base/TLS_cert.md~",
-    "Base/RAID.md~",
     "Base/TLS_ciril.md",
     "Base/Certs.md",
     "Python/unittest.md",
@@ -239,7 +241,6 @@
     "DevOps/chroot.md",
     "Bash/Bash.md",
     "Bash/Write_file.md",
-    "Linux/fail2ban.md",
-    "Linux/scp.md"
+    "Linux/fail2ban.md"
   ]
 }
