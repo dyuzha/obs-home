@@ -158,6 +158,7 @@ dunder methods (dunder underscope)
 
 ## Модули
 ---
+[[poetry]]
 
 ### Тестирование
 ---
