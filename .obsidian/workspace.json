@@ -204,7 +204,13 @@
   },
   "active": "1c0478e3ab895a01",
   "lastOpenFiles": [
+    "Python/flask-migrate.md~",
+    "Python/flask-migrate.md",
+    "Python/Flask.md~",
     "Python/4913",
+    "Python/!Python.md~",
+    "Python/arch.md~",
+    "Python/arch.md",
     "Python/poetry.md~",
     "Python/poetry.md",
     "Linux/!Lin.md~",
@@ -215,11 +221,7 @@
     "Linux/4913",
     "Linux/SELinux.md",
     "Base/ssh.md~",
-    "Base/!!Base.md~",
     "Base/ssh.md",
-    "Base/api.md~",
-    "Base/digital-inf.md~",
-    "Base/TLS_cert.md~",
     "Base/TLS_ciril.md",
     "Base/Certs.md",
     "Python/unittest.md",
@@ -239,8 +241,6 @@
     "files/obs-logo.svg",
     "DevOps/Docker.md",
     "DevOps/chroot.md",
-    "Bash/Bash.md",
-    "Bash/Write_file.md",
-    "Linux/fail2ban.md"
+    "Bash/Bash.md"
   ]
 }
