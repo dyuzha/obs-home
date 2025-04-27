@@ -11,6 +11,7 @@ tags: []
 [[flask-sqlalchemy]]
 [[flask-migrate]]
 [[flask-wtf]]
+[[flask-login]]
 
 ### Создание бд
 ---
@@ -41,5 +42,32 @@ app = Flask(__name__)
 
 if __name__ == '__main__':
   app.run()
+```
+
+## Основные команды
+---
+
+### run
+---
+
+### shell
+---
+Запускает интерпритатор **Py**, в контексте приложения
+```bash
+flask shell
+# Запускает интерпритатор
+# Импортирует app и другие объекты (которые натсроены)
+```
+
+```python
+import sqlalchemy as sa
+import sqlalchemy.orm as so
+from app import app, db
+from app.models import User, Post
+
+# Настройка контекста оболочки
+@app.shell_context_processor
+def make_shell_context():
+    return {'sa': sa, 'so': so, 'db': db, 'User': User, 'Post': Post}
 ```
 

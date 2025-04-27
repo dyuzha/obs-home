@@ -46,9 +46,21 @@
               "icon": "lucide-file",
               "title": "Base"
             }
+          },
+          {
+            "id": "b3f4a7a6d433bd2b",
+            "type": "leaf",
+            "state": {
+              "type": "release-notes",
+              "state": {
+                "currentVersion": "1.8.10"
+              },
+              "icon": "lucide-book-up",
+              "title": "Release Notes 1.8.10"
+            }
           }
         ],
-        "currentTab": 2
+        "currentTab": 3
       }
     ],
     "direction": "vertical"
@@ -202,12 +214,17 @@
       "obsidian-kanban:Создать новую доску": false
     }
   },
-  "active": "1c0478e3ab895a01",
+  "active": "b3f4a7a6d433bd2b",
   "lastOpenFiles": [
-    "Python/flask-migrate.md~",
-    "Python/flask-migrate.md",
-    "Python/Flask.md~",
+    "Python/flask-login.md~",
     "Python/4913",
+    "Python/flask-login.md",
+    "Python/flask_login.md",
+    "Python/flask-migrate.md~",
+    "Python/werkzeug.md~",
+    "Python/werkzeug.md",
+    "Python/Flask.md~",
+    "Python/flask-migrate.md",
     "Python/!Python.md~",
     "Python/arch.md~",
     "Python/arch.md",
@@ -218,9 +235,7 @@
     "Linux/pipe.md~",
     "Linux/pipe.md",
     "Linux/SELinux.md~",
-    "Linux/4913",
     "Linux/SELinux.md",
-    "Base/ssh.md~",
     "Base/ssh.md",
     "Base/TLS_ciril.md",
     "Base/Certs.md",
@@ -238,9 +253,6 @@
     "Git/Base.md",
     "Linux/fstab_conf.md",
     "Linux/sshfs.md",
-    "files/obs-logo.svg",
-    "DevOps/Docker.md",
-    "DevOps/chroot.md",
-    "Bash/Bash.md"
+    "files/obs-logo.svg"
   ]
 }
