@@ -51,12 +51,14 @@
             "id": "b3f4a7a6d433bd2b",
             "type": "leaf",
             "state": {
-              "type": "release-notes",
+              "type": "markdown",
               "state": {
-                "currentVersion": "1.8.10"
+                "file": "Git/Reference.md",
+                "mode": "source",
+                "source": false
               },
-              "icon": "lucide-book-up",
-              "title": "Release Notes 1.8.10"
+              "icon": "lucide-file",
+              "title": "Reference"
             }
           }
         ],
@@ -216,6 +218,8 @@
   },
   "active": "b3f4a7a6d433bd2b",
   "lastOpenFiles": [
+    "Git/Cases.md",
+    "Git/4913",
     "Python/flask-login.md~",
     "Python/4913",
     "Python/flask-login.md",
@@ -232,9 +236,7 @@
     "Python/poetry.md",
     "Linux/!Lin.md~",
     "Linux/strace.md",
-    "Linux/pipe.md~",
     "Linux/pipe.md",
-    "Linux/SELinux.md~",
     "Linux/SELinux.md",
     "Base/ssh.md",
     "Base/TLS_ciril.md",

@@ -4,7 +4,7 @@ aliases: []
 tags: []
 ---
 **Back**
-    [[!Python]]
+    [[Flask]]
 
 # Flask-login
 ---
