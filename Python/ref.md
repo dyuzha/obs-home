@@ -56,3 +56,37 @@ except StopIteration:
 print("Stop program")
 ```
 Пример создания собственного итератора [[iter]]
+
+## Преобразование в будевое значение
+---
+```python
+def find_user(name):
+    users = {"Alice": 25, "Bob":30}
+    # Возвращает возраст или None
+    return users.get(name)
+
+# 1. Пример использования
+age = find_user("Alice")
+if age:
+    print("Age:", age)
+# Сработает, даже если age = 0, т.к. 0 - ложно
+else:
+    print("User not found")
+
+
+# 2. Пример использования
+age = find_user("Alice")
+# Четко проверяем, что результат не None
+if age is not None:
+    print("Age:", age)
+# Если age = 0, не сработает!!
+else:
+    print("User not found")
+
+
+def has_user(name):
+    users = {"Alice": 25, "Bob":30}
+    # Возвращает True, если пользователь найден
+    # и False, елси не найден
+    return users.get(name) is not None
+```
