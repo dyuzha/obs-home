@@ -1,6 +1,7 @@
 ---
 id: Git
-aliases: []
+aliases:
+  - Git
 tags: []
 ---
 
@@ -25,6 +26,8 @@ tags: []
 - `git remote`
 - Файл **.gitignore**
 - Удаление файлов
+
+[[sparse-checkout]]
 
 ## Полезные кейсы
 ---

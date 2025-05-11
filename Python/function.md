@@ -1,10 +1,14 @@
 ---
 id: function
-aliases: []
+aliases:
+  - Функции (Function)
 tags: []
 ---
 *Back*
     [[!Python]]
+
+**more**
+    [[decorations]]
 
 # Функции (Function)
 ---
@@ -241,3 +245,5 @@ print(res1)                     # 30
 res2 = sum(10, -20)
 print(res2)                     # 0
 ```
+
+**more** [[decorations]]

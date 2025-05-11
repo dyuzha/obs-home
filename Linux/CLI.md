@@ -1,6 +1,7 @@
 ---
 id: CLI
-aliases: []
+aliases:
+  - Переменные окружения
 tags: []
 ---
 
