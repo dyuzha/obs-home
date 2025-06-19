@@ -1,6 +1,7 @@
 ---
 id: Python
-aliases: []
+aliases:
+  - Python
 tags: []
 ---
 
@@ -166,6 +167,13 @@ dunder methods (dunder underscope)
 ### Тестирование
 ---
 [[unittest]]
+
+
+### Асинхронное программирование
+---
+asinco
+[[aioresponses]]
+
 
 ### Встроенные модули
 ---
