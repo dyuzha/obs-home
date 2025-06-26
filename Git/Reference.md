@@ -1,20 +1,25 @@
 ---
 id: Reference
-aliases: []
+aliases:
+  - Init
 tags: []
 ---
 
 **Back**
 	[[Git]]
 
+**More**
+[[Merge]]
+
 
 # Init
 ---
 ``` bash
-# Создать ветку с именем 'master' (default)
+# Создать ветку с именем 'main' (default)
 git init
-	# Данный параметр переопределит default branch name
-	git config --global init.defultBranch main
+
+# Данный параметр переопределит default branch name
+git config --global init.defultBranch master
 
 # добавляет файл(ы) под версионный контроль (начинает их отслеживать)
 git add <file(s)>
@@ -40,7 +45,7 @@ git commit - Фиксирует добавляя коментарий
 | Символ | отредактированные           |
 | ------ | --------------------------- |
 | M      | отредактированные           |
-| MM     | 9ask9                       |
+| MM     | Частично отслеживаемые      |
 | ??     | Новые, неотсеживаемые       |
 | A      | Добавленные и отслеживаемые |
 
