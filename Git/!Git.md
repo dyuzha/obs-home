@@ -31,6 +31,10 @@ tags: []
 
 [[sparse-checkout]]
 
+[[Stage]]
+
+[[Stash]]
+
 ## Полезные кейсы
 ---
 [[Cases]]
