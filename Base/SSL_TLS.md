@@ -1,14 +1,12 @@
 ---
 id: SSL_TLS
-aliases: []
+aliases:
+  - SSL и TLS
 tags: []
 ---
 **Back**
     [[!Base]]
     [[Certs]]
-
-**More**
-    [[TLS_cert]]
 
 # SSL и TLS
 ---
