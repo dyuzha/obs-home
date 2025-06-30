@@ -1,28 +1,18 @@
 ---
-id: Bash
+id: syntax
 aliases:
-  - Примеры использования
+  - Syntax
 tags: []
 ---
-
-# Примеры использования
----
-
-```bash
-# Устанавливаем права доступа к скопированным файлам и папкам
-find "$HOME" -type f -exec chmod 644 {} \;
-find "$HOME" -type d -exec chmod 755 {} \;
-
-# Добавляем папку bin в переменную PATH
-export PATH="$PATH:$HOME/.dotfiles/bin"
-```
-
+**Back**
+    [[!Bash]]
 
 # Syntax
 ---
 
 ## Операторы сравнения
 ---
+
 
 | Command | Action           |
 |---------|------------------|
@@ -52,9 +42,10 @@ export PATH="$PATH:$HOME/.dotfiles/bin"
 
 | `||`    | или              |
 
+
 >[!Example]
 ```
-(("$a" < "$b"))
+((a" < "$b"))
 ```
 
 
@@ -68,4 +59,13 @@ case $fruit in
   "banana") echo "Это банан";;
   *) echo "Неизвестный фрукт";;
 esac
+```
+
+
+## Запуск скриптов с локальными переменными
+---
+```bash
+# Запустить command, временно установив для нее переменную окружения VAR со значением value
+VAR=value command
+DEBUG=1 ./script.sh
 ```
