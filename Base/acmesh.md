@@ -32,6 +32,7 @@ tags: []
 - Псевдоним DNS
 - Без состояния
 
+
 ## Установка
  ---
  ```bash
@@ -58,6 +59,7 @@ source ~/.bashrc
 2. Создайте псевдоним для: acme.sh=`~/.acme.sh/acme.sh`.
 3. Создайте ежедневное задание cron для проверки и обновления сертификатов при необходимости.
 
+
 ### Расширенная установка
 ---
 ``` bash
@@ -72,5 +74,14 @@ cd acme.sh
           --accountconf ~/myaccount.conf \
           --useragent "this is my client."
 ```
+
+
+## Варианты автоматизации
+---
+- DNS провайдер (если есть api)
+- Webroot (если есть доступ к файлами сайта)
+- Standalone (для тестов, для локальных сайтов)
+
+
 
 Source: [translates](https://translated.turbopages.org/proxy_u/en-ru.ru.c4c7d210-685ffc6f-47ddf9fc-74722d776562/https/www.howtoforge.com/getting-started-with-acmesh-lets-encrypt-client/)

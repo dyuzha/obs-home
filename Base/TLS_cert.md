@@ -1,6 +1,7 @@
 ---
 id: TLS_cert
-aliases: []
+aliases:
+  - TLS сертификат
 tags: []
 ---
 **Back**
