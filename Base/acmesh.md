@@ -63,16 +63,28 @@ source ~/.bashrc
 ### Расширенная установка
 ---
 ``` bash
-git clone https://github.com/Neilpang/acme.sh.git
-cd acme.sh
-./acme.sh --install \
-          --home ~/myacme \
-          --config-home ~/myacme/data \
-          --cert-home ~/mycerts \
-          --accountemail "hi@acme.sh" \
-          --accountkey ~/myaccount.key \
-          --accountconf ~/myaccount.conf \
-          --useragent "this is my client."
+curl https://get.acme.sh | sh -s -- --install \
+          --home ~/.acme.sh \
+          --config-home ~/.acme.sh \
+          --cert-home ~/.acme.sh \
+          --accountemail "не задан" \
+          --accountkey ~/.acme.sh/account.key \
+          --accountconf ~/.acme.sh/account.conf \
+          --useragent "acme.sh"
+```
+
+
+Так как acme.sh по умолчанию использует ZeroSSL, который требует привязки email
+Варианты решения:
+```bash
+# Зарегестрировать email в ZeroSSL
+acme.sh --register-account -m your@email.com
+
+# Установить Let's Encrypt в качестве CA
+acme.sh --set-default-ca --server letsencrypt
+
+# Выпускать сертификаты БЕЗ регистрации:
+acme.sh --issue --dns dns_cf -d example.com
 ```
 
 
@@ -82,6 +94,51 @@ cd acme.sh
 - Webroot (если есть доступ к файлами сайта)
 - Standalone (для тестов, для локальных сайтов)
 
+### DNS провайдер
+---
+```bash
+# Пример для wildcard-сертификата
+acme.sh --issue --dns dns_cf \
+          -d "example.com" \
+          -d "*.example.com" \
+          --keylength ec-384
+```
+
+
+
+## Доп параметры
+---
+
+### Генерация
+---
+По умолчанию, acme.sh использует [[RSA]] ключ  (2048 символов - 4096 бит)
+Чтобы использовать актуальный ключ ECC (384 бита) и снизить нагрузку на процессор, не потеряв в безопасности, необходимо указать
+```bash
+# Указать альтернативный способ шифрования (генерации) ключа
+--keylength ec-384
+```
+
+| Category           | ECC-384                 | RSA-4096      | RSA-2048      |
+|--------------------|-------------------------|---------------|---------------|
+| Key-size           | 384 bit                 | 4096 bit      | 2048 bit      |
+| Безопасность       | Оч. высокая             | Высокая       | Устаревающая  |
+| Производительность | Fast                    | Slow          | Middle        |
+| Совместимость      | Современные ОС/браузеры | Универсальная | Универсальная |
+
+
+### Тестовая среда
+---
+Предназначена для тестирования и отладки процессов выпуска SSL-сертификатов без рисков ПРЕВЫСИТЬ ЛИМИТЫ prod-серверов
+- Используется тестовый URL
+- Сертификаты выдаются под промежуточным CA (Staging), НЕ ДОВЕРЯЕМЫМ БРАУЗЕРОМ
+- Лимиты
+30k сертификатов на домен в неделю
+60 неудачных процессов в час
+
+После использования можно удалить тестовые сертификаты
+```bash
+find ~/.acme.sh/ -name "*_staging*" -exec rm -rf {} \;
+```
 
 
 Source: [translates](https://translated.turbopages.org/proxy_u/en-ru.ru.c4c7d210-685ffc6f-47ddf9fc-74722d776562/https/www.howtoforge.com/getting-started-with-acmesh-lets-encrypt-client/)
