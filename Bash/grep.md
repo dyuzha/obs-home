@@ -1,6 +1,7 @@
 ---
 id: grep
-aliases: []
+aliases:
+  - Syntax
 tags: []
 ---
 

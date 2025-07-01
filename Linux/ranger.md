@@ -1,6 +1,7 @@
 ---
 id: ranger
-aliases: []
+aliases:
+  - Base
 tags: []
 ---
 *Back*

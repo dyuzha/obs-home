@@ -33,6 +33,7 @@ export SERVER_IP=`hostname -I`
 
 # The command alias to start the browser-sync server
 alias serve="browser-sync start --server -b vimb --files . --no-notify --host $SERVER_IP --port 9000"
+
 ```
 
 ## Установка Laravel И Vue
@@ -44,13 +45,3 @@ npm i intelephense -g
 
 
 ```
-
-## Универсальные утилиты dotfiles
----
-Программы помогающие управлять, синхронизировать и/или устанавливать dotfiles
-
-- Mackup
-    Менеджер настроек и конфигураций приложений. Он автоматически находит местоположение файлов натсроек для  набора известных приложений и синхронизирует их с Dropbox, Git или др. методом.
-
-- Chezmoi
-
