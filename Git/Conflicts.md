@@ -1,6 +1,7 @@
 ---
 id: Conflicts
-aliases: []
+aliases:
+  - Решение конфликтов
 tags: []
 ---
 **Back**
@@ -38,3 +39,21 @@ tags: []
 	=> После чего проиндексировать и закомитить
 
 Источник: [GitHub - Разрешение конфликтов слияния](https://docs.github.com/ru/pull-requests/collaborating-with-pull-requests/addressing-merge-conflicts/resolving-a-merge-conflict-using-the-command-line)
+
+## Анализ
+---
+```bash
+git diff branch1 branch2 # Показать все разоичия
+git diff --name-only branch1 branch2 # Показать имена файлов с различиями
+```
+
+## Посмотреть конфликты при слиянии
+---
+```bash
+git merge --no-commit --no-ff origin/main
+git status
+# После просмотра отменить слияние
+git merge --abort
+```
+
+

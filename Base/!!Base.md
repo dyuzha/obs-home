@@ -20,6 +20,9 @@ tags: []
 
 [[vps_vds]] (Пустой но с ссылкой)
 
+[[IaC]]
+Инфраструктура как код
+
 
 ### Сеть
 ---
@@ -37,6 +40,7 @@ tags: []
 ## Протоколы и их реализация
 ---
 [[ssh]] (пустой)
+[[ssh-copy-id]]
 
 
 
@@ -48,6 +52,19 @@ tags: []
 
 [[regular]]
 Регулярные выражения (*теория и реализация*)
+
+[[Marzban]]
+[[xray]]
+[[vpn_shadowsocks]]
+[[vpn_vless]]
+[[Reality]]
+[[socks5]]
+
+
+[[Radicale]]
+[[CalDav]]
+[[htpasswd]]
+
 
 [[BEM]]
 Методолгия программ и интерфейсов
@@ -61,3 +78,10 @@ tags: []
     - SOAP
     - GraphQL
     - JSON-RPC и XML-RPC
+
+[[ci_cd]]
+[[workflow]]
+    [GitHub Actions](gh-actions)
+    [Gitlab CI/CD](gitlab-ci-cd)
+    [[Jetkins]]
+

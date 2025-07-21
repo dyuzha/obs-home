@@ -1,6 +1,7 @@
 ---
 id: process
-aliases: []
+aliases:
+  - Process
 tags: []
 ---
 **Back**
@@ -77,4 +78,13 @@ export KEY=VALUE - добавит новую глобальную перемен
 ```
 ```
 xprop | grep WM_CLASS
+```
+
+```bash
+# ПОиск процесса, использующих порт 5232
+sudo lsof -i :5232
+
+
+# завершить процесс по PID
+kill -9 <PID>
 ```

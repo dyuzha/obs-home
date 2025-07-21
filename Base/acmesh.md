@@ -37,7 +37,6 @@ tags: []
  ---
  ```bash
 curl https://get.acme.sh | sh
-source ~/.bashrc
 
 # или
 
@@ -92,16 +91,19 @@ acme.sh --issue --dns dns_cf -d example.com
 ---
 - DNS провайдер (если есть api)
 - Webroot (если есть доступ к файлами сайта)
-- Standalone (для тестов, для локальных сайтов)
+- Standalone (для тестов, для локальных сайтов) (требует [[socat]])
+    Запускает встроенный web-сервер на 80 порту (или 443 для TLS)
+    НЕ подходит для wildcard-сертификатов (нужен DNS-режим)
 
 ### DNS провайдер
 ---
 ```bash
-# Пример для wildcard-сертификата
+# пример для wildcard-сертификата
 acme.sh --issue --dns dns_cf \
           -d "example.com" \
           -d "*.example.com" \
-          --keylength ec-384
+          --keylength ec-384 \
+          --staging
 ```
 
 
@@ -126,8 +128,71 @@ acme.sh --issue --dns dns_cf \
 | Совместимость      | Современные ОС/браузеры | Универсальная | Универсальная |
 
 
-### Тестовая среда
+
+
+## Команды
 ---
+
+| Command        | Action                                        |
+|----------------|-----------------------------------------------|
+| --issue        | Получить новый сертификат                     |
+| --install-cert | Скопировать сертификат в нужные папки         |
+| --deploy       | Использовать готовый скрипт для развертывания |
+
+
+### Issue
+---
+```bash
+# Получение сертификата
+acme.sh --issue -d example.com
+
+# Получение сертификата Nginx
+acme.sh --issue -d example.com --nginx
+# Для Apache
+--apache
+
+# Выпуск wildcard сертификата
+acme.sh --issue -d example.com *.example.com
+
+# Выпуск тестового сертификата
+acme.sh --issue -d example.com --staging
+
+# Выбор длины ключа
+acme.sh --issue -d example.com --keylength ec-384
+
+# Подробный вывод для диагностики
+acme.sh --issue -d example.com --standalone --debug 2
+```
+
+- Выпускает новый SSL-сертификат через CA
+- Проверяет владение доменом (через DNS или HTTP-запросы)
+- Сохраняет сертификат в папке `/.acme.sh/domain/`
+
+
+#### Генерация
+---
+По умолчанию, acme.sh использует [[RSA]] ключ  (2048 символов - 4096 бит)
+Чтобы использовать актуальный ключ ECC (384 бита) и снизить нагрузку на процессор, не потеряв в безопасности, необходимо указать
+```bash
+# Указать альтернативный способ шифрования (генерации) ключа
+--keylength ec-384
+```
+
+| Category           | ECC-384                 | RSA-4096      | RSA-2048      |
+|--------------------|-------------------------|---------------|---------------|
+| Key-size           | 384 bit                 | 4096 bit      | 2048 bit      |
+| Безопасность       | Оч. высокая             | Высокая       | Устаревающая  |
+| Производительность | Fast                    | Slow          | Middle        |
+| Совместимость      | Современные ОС/браузеры | Универсальная | Универсальная |
+
+
+#### Тестовая среда
+---
+```bash
+# Выпустить тестовый сертификат
+--staging
+```
+
 Предназначена для тестирования и отладки процессов выпуска SSL-сертификатов без рисков ПРЕВЫСИТЬ ЛИМИТЫ prod-серверов
 - Используется тестовый URL
 - Сертификаты выдаются под промежуточным CA (Staging), НЕ ДОВЕРЯЕМЫМ БРАУЗЕРОМ
@@ -141,4 +206,72 @@ find ~/.acme.sh/ -name "*_staging*" -exec rm -rf {} \;
 ```
 
 
-Source: [translates](https://translated.turbopages.org/proxy_u/en-ru.ru.c4c7d210-685ffc6f-47ddf9fc-74722d776562/https/www.howtoforge.com/getting-started-with-acmesh-lets-encrypt-client/)
+##### Standalone
+---
+Необходим установленный [[socat]]
+```bash
+acme.sh --issue -d srv.dyuzha.ru --staging --standalone
+
+# Результат должен быть таким
+~/.acme.sh/example.com/
+  ├── example.com.key     # Приватный ключ
+  ├── example.com.cer     # Сертификат
+  └── fullchain.cer       # Полная цепочка (сертификат + CA)
+```
+
+
+##### Dns
+---
+Возможно выпустить **wildcard** сертификаты
+```bash
+acme.sh --issue -d example.com -d *.example.com --staging --dns dns_provider
+
+# Для CloudFlare
+
+# Предварительно должны быть экспортированы
+echo 'export CF_Token="ваш_токен"' >> ~/.bashrc
+echo 'export CF_Account_ID="ваш_ID"' >> ~/.bashrc
+source ~/.bashrc  # Применить изменения
+
+acme.sh --issue -d example.com --staging --dns dns_cf
+
+```
+
+Ручной ввод
+```bash
+# Показывает TXT запись которую нужно разместить
+acme.sh --issue -d example.com --dns \
+    --yes-I-know-dns-manual-mode-enough-go-ahead-please
+
+# После добавления TXT записи
+acme.sh --renew -d example.com \
+  --yes-I-know-dns-manual-mode-enough-go-ahead-please
+```
+
+
+### Install-cert
+---
+```bash
+# Установка сертификата
+acme.sh --install-cert
+```
+- Копирует **УЖЕ ПОЛУЧЕННЫЙ СЕРТИФИКАТ** из ~/.acme.sh/ в указанные пути (например `/etc/nginx/ssl/`)
+- Может выполнить команду перезагрузки сервиса (например `nginx -s reload`)
+
+```bash
+acme.sh --install-cert -d example.com \
+    --key-file /etc/nginx/ssl/key.pem \
+    --fullchain-file /etc/nginx/ssl/cert.pem \
+    --reloadcmd "nginx -s reload"
+
+--key-file # Путь для приватного ключа
+--fullchain-file # Путь для сертификата (включая цепочку доверия)
+--reloadcmd # Команда для перезагрузки сервиса
+
+```
+Вместо `--install-cert` можно использовать готовые срипты из ` ~/.acme.sh/deploy`
+Это аналог `--install-cert`, но с предопределенными путями (например для nginx, apache, docker)
+```bash
+acme.sh --deploy -d srv.dyuzha.ru --deploy-hook nginx
+```
+

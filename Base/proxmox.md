@@ -1,6 +1,7 @@
 ---
 id: proxmox
-aliases: []
+aliases:
+  - Proxmox
 tags: []
 ---
 **Back**

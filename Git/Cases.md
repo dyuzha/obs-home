@@ -26,6 +26,3 @@ git commit -m "Add executable scripts"
 git ls-files --stage scripts/*.sh
 ```
 
-
-##
----
