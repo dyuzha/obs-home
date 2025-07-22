@@ -1,11 +1,11 @@
 ---
-id: "!Ansible"
+id: Ansible
 aliases:
   - Ansible
 tags: []
 ---
 **Back**
-    [[]]
+    [[!Base]]
 
 # Ansible
 ---
@@ -22,7 +22,7 @@ tags: []
 
 2. Идемпотентность - можно многократно применять одну и ту же конфигурациюк без побочных эфектов.
 
-3. Декларативный подход -
+3. Декларативный подход
 
 4. Модульность - сотни встроенных модулей для работы с облаками, Docker, сетями и т.д.
 
@@ -81,7 +81,6 @@ brew install ansible
 [web] # Группа серверов
 server1 ansible_host=192.168.1.10 ansible_use=root ansible_password=your_password
 server2 ansible_host=192.168.1.11 ansible_use=ubuntu ansible_password=another_password
-
 ```
 
 **По SSH-ключу**
