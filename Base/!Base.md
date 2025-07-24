@@ -20,6 +20,8 @@ tags: []
 [[IaC]]
 Инфраструктура как код
 [[Ansible]]
+    [[playbooks_vs_roles]]
+    Раздница между playbooks и roles
 
 
 [[Web-servers]]

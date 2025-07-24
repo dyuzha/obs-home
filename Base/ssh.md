@@ -1,6 +1,7 @@
 ---
 id: ssh
-aliases: []
+aliases:
+  - SSH
 tags:
   - Port 22
 ---

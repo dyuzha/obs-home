@@ -1,3 +1,9 @@
+---
+id: ssh
+aliases: []
+tags: []
+---
+
 **Back**
 	[[Git]]
 
@@ -12,7 +18,7 @@ ssh-keygen -t ed25519 -c "your_email@example.com"
 3. Отредактировать *config*  в ~/.ssh
 >[!~/.ssh/config]
 ```shell
-Host [host-name] 
+Host [host-name]
 	HostName github.com
 	IdentityFile ~/.ssh/[secret-key-name]
 	IdentitiesOnly yes
@@ -20,7 +26,7 @@ Host [host-name]
 
 4. Создать репозиторий на *Github*
 
-5. В инициализированном *git*-репозитории написать 
+5. В инициализированном *git*-репозитории написать
 >[!example]
 ```shell
 git push --set-upstream git@[host-name]:[dyuzha/me.git] master
