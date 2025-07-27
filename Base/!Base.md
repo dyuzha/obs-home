@@ -6,9 +6,6 @@ tags: []
 
 ## Инфраструктура
 ---
-[[Web-servers]]
-Отличия Apache от Nginx
-
 [[Certs]]
 Что такое TLS/SSL
 Виды TLS сертификатов
@@ -22,6 +19,25 @@ tags: []
 
 [[IaC]]
 Инфраструктура как код
+[[Ansible]]
+    [[playbooks_vs_roles]]
+    Раздница между playbooks и roles
+
+
+[[Web-servers]]
+Отличия Apache от Nginx
+
+
+[[Radicale]]
+[[CalDav]]
+[[htpasswd]]
+
+[[Marzban]]
+[[xray]]
+[[vpn_shadowsocks]]
+[[vpn_vless]]
+[[Reality]]
+[[socks5]]
 
 
 ### Сеть
@@ -40,7 +56,11 @@ tags: []
 ## Протоколы и их реализация
 ---
 [[ssh]] (пустой)
-[[ssh-copy-id]]
+    [[ssh-copy-id]] Утилита для копирования публичного ключа на удаленный сервер
+
+[[ftp]]
+- curlftpfs (монтирование dit через FTP)
+- lftp
 
 
 
@@ -52,18 +72,6 @@ tags: []
 
 [[regular]]
 Регулярные выражения (*теория и реализация*)
-
-[[Marzban]]
-[[xray]]
-[[vpn_shadowsocks]]
-[[vpn_vless]]
-[[Reality]]
-[[socks5]]
-
-
-[[Radicale]]
-[[CalDav]]
-[[htpasswd]]
 
 
 [[BEM]]
@@ -84,4 +92,3 @@ tags: []
     [GitHub Actions](gh-actions)
     [Gitlab CI/CD](gitlab-ci-cd)
     [[Jetkins]]
-
