@@ -3,7 +3,6 @@ id: strace
 aliases: []
 tags: []
 ---
-
 **Back**
     [[!Lin]]
 
