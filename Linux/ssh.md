@@ -14,10 +14,10 @@ tags: []
 ## ssh-keygen
 ---
 ```bash
-# Сгенерировать ключ с шифрованием ed25519
 # -С это комментарий (в данном случае email)
 ssh-keygen -t rsa -b 4096 -C "your_email@example.com"
 
+# Сгенерировать ключ с шифрованием ed25519
 ssh-keygen -t ed25519 -C "comment"
 
 # Более надежный ключ
