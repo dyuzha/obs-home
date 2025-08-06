@@ -43,6 +43,8 @@ tags: []
     [[IPA-server]]
     [[IPA-client]]
 
+[[sysctl]]
+
 
 ## Взаимодействие с системой
 ---

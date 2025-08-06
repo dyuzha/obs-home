@@ -225,6 +225,7 @@ acme.sh --issue -d srv.dyuzha.ru --staging --standalone
 Возможно выпустить **wildcard** сертификаты
 ```bash
 acme.sh --issue -d example.com -d *.example.com --staging --dns dns_provider
+acme.sh --issue -d example.com -d *.paun.su --staging --dns dns_cf
 
 # Для CloudFlare
 
