@@ -26,6 +26,7 @@ tags: []
     Спецификация директорий в Linux
 [[devices]]
     Как отображаются девайсы в Linux
+[[Special_permission_bits]]
 
 ## Cases
 [[term]]
@@ -44,6 +45,11 @@ tags: []
     [[IPA-client]]
 
 [[sysctl]]
+
+
+## Мониторинг
+---
+[[alternatives.log.md]]
 
 
 ## Взаимодействие с системой
