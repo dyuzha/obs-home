@@ -23,5 +23,7 @@ tags: []
 [[bits_operators]]
 [[conditional]]
 [[logical_operators]]
+[[cicles]]
+[[functions]]
 
 
