@@ -21,4 +21,7 @@ tags: []
 [[base_operators]]
 [[sravn_operators]]
 [[bits_operators]]
+[[conditional]]
+[[logical_operators]]
+
 
