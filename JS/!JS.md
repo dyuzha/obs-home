@@ -25,5 +25,7 @@ tags: []
 [[logical_operators]]
 [[cicles]]
 [[functions]]
+[[clean_code]]
+[[test]]
 
 

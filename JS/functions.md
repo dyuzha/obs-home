@@ -1,13 +1,22 @@
 ---
 id: functions
 aliases:
-  - functions
+  - Functions
 tags: []
 ---
 **Back**
     [[!JS]]
 
-# functions
+# Functions
+---
+
+## Обычные функции
+---
+- Имеют собственный *this*
+- *This* определяется в момент вызова функции
+- Зависит от контекста вызова
+
+### Основы
 ---
 ```js
 function name(params) {
@@ -60,6 +69,7 @@ function showMessage(from, text = "No text") {
 showMessage("Anna", "Hi");
 showMessage("Anna");
 ```
+
 В роли значения по умолчанию мб функция
 ```js
 function showMessage(from, text = anotherFunction()) {
@@ -78,3 +88,73 @@ function doNothing() {
 alert( doNothing() === undefined ); // true
 ```
 
+### Виды определения
+---
+
+#### Function declaration
+---
+- Функция объявляется отдельной конструкцией
+- Можно вызвать до определения
+- В строгом режиме, когда функция создается внутри блока `{}`, ее можно использовать только внутри блока.
+```js
+// Function Declaration
+function sum(a, b) {
+  return a + b;
+}
+```
+
+#### Function expression
+---
+- Создается внутри другого выражения иди конструкции
+- Функция создается, когда интерпритатор доходит до нее => нельзя вызывать до определения
+- В строгом режиме, когда функция создается внутри блока `{}`, ее можно использовать ВНЕ БЛОКА
+```js
+// Function Expression
+let sum = function(a, b) {
+  return a + b;
+};
+```
+
+## Стрелочные функции
+---
+- Не имеют собственного контекста (this)
+- *This* заимствуется из внешней области
+- *This* фиксируется в момент создания
+
+### Виды опредения
+---
+
+#### Однострочные
+---
+```js
+let func(arg1, arg2, ... argN) => expression;
+
+// Аналог
+function func(arg1, arg2, ..., argN) {
+    expression;
+}
+```
+
+Пример:
+```js
+let sum = (a, b) => a + b;
+
+alert(sum(4, 5))
+```
+Если один аргумент - скобки можно опустить
+```js
+let double = n => n * 2
+```
+Если нет аргументов, нужны скобки
+```js
+let sayHi = () => alert("Hi!")
+```
+
+#### Многострочные
+---
+```js
+let sum = (a, b) => {
+    let result = a + b;
+    return result;
+};
+```
