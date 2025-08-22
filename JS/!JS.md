@@ -27,5 +27,6 @@ tags: []
 [[functions]]
 [[clean_code]]
 [[test]]
+[[objects]]
 
 
