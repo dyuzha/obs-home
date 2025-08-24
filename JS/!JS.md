@@ -28,5 +28,4 @@ tags: []
 [[clean_code]]
 [[test]]
 [[objects]]
-
-
+    [[copy_objects]]
