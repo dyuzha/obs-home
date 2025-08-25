@@ -1,17 +1,24 @@
+---
+id: cicles_operators
+aliases:
+  - Циклы и операторы
+tags: []
+---
+
 # Циклы и операторы
 ---
 
 ## Операторы сравнения
 ---
 
-simbol | Description
----    |---
--eq    | =
--ne    | !=
--gt    | >
--ge    | >=
--lt    | <
--le    | <=
+ | simbol | Description |
+ |--------|-------------|
+ | -eq    | =           |
+ | -ne    | !=          |
+ | -gt    | >           |
+ | -ge    | >=          |
+ | -lt    | <           |
+ | -le    | <=          |
 
 ## Условные операторы
 ---
@@ -75,7 +82,7 @@ while ($test -lt 10) {
 [int]$test = 0
 do {
       Write-Host $test
-      $test = $test + 1 
+      $test = $test + 1
 }
 while ($test -lt 10)
 
@@ -83,7 +90,7 @@ while ($test -lt 10)
 [int]$test = 0
 do {
       Write-Host $test
-      $test = $test + 1 
+      $test = $test + 1
 }
 until ($test -gt 9)
 
