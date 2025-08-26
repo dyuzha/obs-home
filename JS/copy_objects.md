@@ -35,6 +35,24 @@ clone.name = "Vasya";
 
 alert(user.name); // "John"
 ```
+## Вложенное (Глубокое) копирование
+---
+```js
+let user = {
+    name: "John",
+    sizes: {
+        height: 186,
+        weight: 50,
+    }
+}
+
+let clone = _.cloneDeep(objects)
+```
+
+
+## Object.assign
+---
+
 
 Копирует все свойства исходный объектов в целевой объект
 Возвращает объект `dest`
@@ -45,7 +63,10 @@ Object.assign(dest, [src1, src2, src3...])
 - `dest` - Целевой объект
 - `srcN` - Исходные объекты
 
+### Использование
+---
 
+1. Создание клонов
 ```js
 Object.assign(user, clone)
 
@@ -54,5 +75,19 @@ clone.name = "Vasya";
 alert(`user: ${user.name}`); // "John"
 alert(`clone: ${clone.name}`); // "John"
 ```
+или так
+```js
+let clone = Object.assign({}, user)
+```
 
+2. Создание объекта из двух других объектов
+```js
+let user = { name = "John" };
+let permission1 = { canView = true };
+let permission2 = { canEdit = true };
+
+// Копирование свойств из permission1, permission2 в user
+Object.assign(user, permission1, permission2)
+```
+3. Глубокое копирование не работает!!
 
