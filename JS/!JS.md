@@ -10,6 +10,8 @@ tags: []
 
 [[use_strict]]
 [[data_types]]
+    [[symbol]]
+        [[global_reestr_symbol]]
 
 [[more]]
 - typeof (Оператор)
