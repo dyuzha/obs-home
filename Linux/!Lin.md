@@ -20,13 +20,17 @@ tags: []
     Взаимодействие с процессами в Linux
 [[archive]]
     Как устроена архивация в Linux
-[[systemd]]
-    Базовая информация с примерами применения
 [[stored_files]]
     Спецификация директорий в Linux
 [[devices]]
     Как отображаются девайсы в Linux
 [[Special_permission_bits]]
+
+[[systemd]]
+    Базовая информация с примерами применения
+    [[units]]
+        Создание собственных unit'ов systemd
+
 
 ## Cases
 [[term]]
