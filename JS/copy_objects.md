@@ -35,6 +35,7 @@ clone.name = "Vasya";
 
 alert(user.name); // "John"
 ```
+
 ## Вложенное (Глубокое) копирование
 ---
 ```js
@@ -52,7 +53,6 @@ let clone = _.cloneDeep(objects)
 
 ## Object.assign
 ---
-
 
 Копирует все свойства исходный объектов в целевой объект
 Возвращает объект `dest`
@@ -89,5 +89,6 @@ let permission2 = { canEdit = true };
 // Копирование свойств из permission1, permission2 в user
 Object.assign(user, permission1, permission2)
 ```
+
 3. Глубокое копирование не работает!!
 
