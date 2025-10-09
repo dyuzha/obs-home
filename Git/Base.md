@@ -1,6 +1,7 @@
 ---
 id: Base
-aliases: []
+aliases:
+  - Базовая информация про Git
 tags: []
 ---
 
@@ -94,7 +95,7 @@ git config --global user.email wefwef@gmail.com
 
 #### Редактор по умолчанию
 ---
-
+- [ ]
 ```bash
 git config --global core.editor vim
 ```
