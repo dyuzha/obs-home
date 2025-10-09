@@ -1,6 +1,7 @@
 ---
 id: poetry
-aliases: []
+aliases:
+  - Poetry
 tags: []
 ---
 **Back**
@@ -28,7 +29,7 @@ project-name/
 └── tests
     └── __init__.py
 
-# Инициалилизация poetry в ужесуществующем проекте
+# Инициалилизация poetry в уже существующем проекте
 cd project-name
 poetry init
 ```
@@ -85,5 +86,4 @@ poetry env use /path/to/python # Можно указать полный путь
 ```bash
 # Установка зависимости
 poetry add <name-dependencies>
-
 ```
