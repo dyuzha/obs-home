@@ -15,6 +15,7 @@ tags: []
     [[string]]
     [[symbol]]
         [[global_reestr_symbol]]
+    [[arrays]]
 
 
 [[objects]]
