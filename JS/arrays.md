@@ -115,5 +115,3 @@ arr.length = 5;
 alert(arr[3]); // undefined
 ```
 Самый простой способ очистить массив - arr.length = 0
-
-

@@ -1,6 +1,7 @@
 ---
 id: fail2ban
-aliases: []
+aliases:
+  - Fail to ban
 tags: []
 ---
 
@@ -38,6 +39,7 @@ fail2ban-client reload
 systemctl restart fail2ban
 ```
 
+
 ## Настройка
 ---
 ```bash
@@ -65,4 +67,7 @@ systemctl restart fail2ban
 # Данная строчка позволяет исопльзовать логи из journald
 backend = %(sshd_backend)s
 ```
+
+#
+Config
 
