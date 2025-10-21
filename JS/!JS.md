@@ -39,6 +39,10 @@ tags: []
 
 ## Другое
 ---
+[[moduls]]
+[[web_worker]]
+
+[[global_var]]
 [[use_strict]]
 [[clean_code]]
 [[test]] - Тестирование
