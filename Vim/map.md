@@ -1,12 +1,19 @@
+---
+id: map
+aliases:
+  - Syntax
+tags: []
+---
+
 [[Commands.md]]
 
 # Syntax
 ---
 
-`map(<предмет для взаимодействия>, <эффект>)` 
+`map(<предмет для взаимодействия>, <эффект>)`
 - `v:val` - значение текущего элемента
 
-## Object 
+## Object
 ---
 - `String` - примениться к каждому символу
 - `List` - примениться к каждому элементу
@@ -14,8 +21,8 @@
 
 ## Effect
 ---
-- `v:val "String"` - совершает конкатенацию 
-- 
+- `v:val "String"` - совершает конкатенацию
+-
 
 >[!Example]
 ```vim
@@ -36,7 +43,7 @@ let mylist = [[1, 2], [3, 4]]
 echo Mapped(function("Reversed"), mylist)
 " >> [[2, 1], [4, 3]]
 
-let fruits = ["apple", "orange", "melon"] 
+let fruits = ["apple", "orange", "melon"]
 echom map(fruits, 'v:val . " - this is fruits"')
 " >> ['apple - this is fruits', `orange - this is ...`]
 

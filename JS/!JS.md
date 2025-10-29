@@ -16,6 +16,11 @@ tags: []
     [[symbol]]
         [[global_reestr_symbol]]
     [[arrays]]
+    [[iterables]]
+    [[map]]
+    [[set]]
+    [[weakmap]]!
+    [[weakset]]!
 
 
 [[objects]]
@@ -53,4 +58,3 @@ tags: []
     - alert
     - prompt
     - confirm
-
