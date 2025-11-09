@@ -59,7 +59,7 @@ poetry env use /path/to/python # Можно указать полный путь
 Файл содержащий в себе всю информацию о проекте:
 - Метаданные (имя, версия, лицензия...)
 - Зависимости
-- Настройки сторонних интсрументов
+- Настройки сторонних инструментов
 
 
 ### poetry.lock
@@ -85,5 +85,20 @@ poetry env use /path/to/python # Можно указать полный путь
 ---
 ```bash
 # Установка зависимости
-poetry add <name-dependencies>
+poetry add aiogram
+
+# Установка зависимостей в группу dev
+poetry add --group dev pytest
+
+# Установка зависимостей из конкретной группы (групп)
+poetry install --only dev # dev,docs,testing
+
+# Обновление зависисмостей
+poetry update
+
+# Обновление конкретной зависимости
+poetry update black
+
+# Удаление зависисмости из группы dev
+poetry remove --group dev flake8
 ```
