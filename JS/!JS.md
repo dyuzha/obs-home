@@ -19,8 +19,7 @@ tags: []
     [[iterables]]
     [[map]]
     [[set]]
-    [[weakmap]]!
-    [[weakset]]!
+    [[weakmap]]
 
 
 [[objects]]

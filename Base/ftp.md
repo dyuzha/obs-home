@@ -30,7 +30,7 @@ FTP клиент для линукс
 sudo apt install lftp
 
 # Копирования папки
-- [ ] lftp -e "mirror --parallel=5 /remote_folder /local_folder; quit" ftp://user:password@example.com
+lftp -e "mirror --parallel=5 /remote_folder /local_folder; quit" ftp://user:password@example.com
 ```
 
 ```bash
