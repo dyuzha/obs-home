@@ -19,7 +19,6 @@ tags: []
     [[iterables]]
     [[map]]
     [[set]]
-    [[weakmap]]
 
 
 [[objects]]
@@ -28,6 +27,7 @@ tags: []
     [[operator new]]
     [[optional_chain]]
     [[hints]]
+    [[Date]]
 
 ## Языковые конструкции
 ---

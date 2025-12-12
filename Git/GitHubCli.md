@@ -43,7 +43,3 @@ gh repo create <name-repo> --public --push --source .
 ```bash
 gh repo create radical --description "CalDAV/CardDAV-srv" --public --source=. --remote=origin --push
 ```
-
-
-
-

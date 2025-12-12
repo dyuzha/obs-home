@@ -1,6 +1,7 @@
 ---
 id: datetime
-aliases: []
+aliases:
+  - Datetime
 tags: []
 ---
 **Back**
