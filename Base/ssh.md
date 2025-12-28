@@ -15,7 +15,10 @@ tags:
 
 Создан в качестве замены не зашифрованному *Telnet*
 
-## SSH Server
+## Роли
+---
+
+### SSH Server
 ---
 Проверяет соединение одним из способов:
 - По IP клиента (не слишком безопасно из-за риска подмены)
@@ -29,7 +32,7 @@ tags:
 | Linux   | Dropbear, LSH-server, Openssh-server |
 | Windows | FreeSSHd, Copssh, WinSSHD, OpenSSH   |
 
-## SSH Client
+### SSH Client
 ---
 Примеры ssh-клентов:
 | OS        | Servers                             |
@@ -37,4 +40,97 @@ tags:
 | Unix-like | OpenSSH-client, putty, ssh, Vinagre |
 | Windows   | Putty, SecureCRT, ShellGuard        |
 | Android   | connectBot                          |
+
+## Структура каталогов
+---
+```bash
+~/.ssh/
+    known_hosts
+```
+
+### known_hosts
+---
+**База публичных ключей** SSH серверов, к которым подключался клиент
+- Проверяет, что подключаешься к тому же серверу
+- Защищает от MITM-атак (подмены сервера)
+*Отпечатки формируются через хеширование публичного ключа сервера (для наглядности)*
+
+
+#### Принцип работы
+---
+**1-ое подключение**: "Неизвестный сервер. Хочешь доверять? (yes/no)"
+**Последующие подключения**: Проверка отпечатков - разрешаение/запрет подключения
+
+**Проверка подключения**: Клиент сначала сравнивает публичные ключи, а потом проверяет подпись, созданную приватным ключем.
+
+
+**Формат файла**
+```bash
+192.168.1.100 ssh-rsa AAAAB3NzaC1yc2E...
+    │           │       │
+    │           │       └отпечаток
+    │           └─тип_ключа
+    └─ server_ip
+```
+
+#### Aдминистрирвание
+---
+```bash
+# Посмотерть все отпечатки
+ssh-keygen -lg ~/.ssh/known_hosts
+```
+
+```bash
+# Удалить старый хост
+ssh-keygen -R ip_or_hostname
+```
+
+```bash
+# Добавить вручную
+ssh-keyscan ip_or_hostname >> ~/.ssh/known_hosts
+```
+
+## config
+---
+Конфигурационный файл
+
+
+### Базовая структура
+---
+```bash
+Host алиас
+    Параметр значение
+    Параметр значение
+```
+
+### Основные параметры
+---
+1. Подключение
+```bash
+Host myserver
+    HostName 192.168.1.100  # Реальный ip/домен
+    User root               # Пользователь
+    Port 22                 # Порт
+```
+
+2. Аунтификация:
+```bash
+Host github
+    HostName github.com
+    User git
+    IdentityFile ~/.ssh/github/id_ed25519_github # Специфичный ключ
+```
+
+3. Настройка соединения
+```bash
+Host vps
+    HostName vps.example.com
+    User admin
+    ServerAliveInterval 50      # "Живое" соединение
+    TCPKeepAlive yes
+    Compression yes             # Сжатие
+```
+
+### Расширенные параметры
+---
 

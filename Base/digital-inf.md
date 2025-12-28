@@ -1,10 +1,11 @@
 ---
 id: digital-inf
-aliases: []
+aliases:
+  - Представление целых чисел
 tags: []
 ---
 **Back**
-	[[!!Base]]
+	[[!Theory]]
 
 # Представление целых чисел
 ---

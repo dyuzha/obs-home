@@ -1,0 +1,40 @@
+{
+	"nodes":[
+		{"id":"146e1f2b5edf1974","type":"text","text":"# Brain","x":-430,"y":-960,"width":250,"height":60},
+		{"id":"13a5a269f73a7d3d","type":"text","text":"# Law site","x":-430,"y":-580,"width":250,"height":60},
+		{"id":"be57d853bb5c00fd","type":"text","text":"# Social map","x":-800,"y":-580,"width":250,"height":60},
+		{"id":"3c00e0579ef98943","type":"text","text":"# Projects","x":-430,"y":-780,"width":250,"height":60},
+		{"id":"7327f57cd0190b6c","type":"text","text":"# LSP","x":320,"y":-580,"width":250,"height":60},
+		{"id":"aab33d92988785ea","type":"text","text":"# Me site","x":-40,"y":-580,"width":250,"height":60},
+		{"id":"154dd4dcc3b30310","type":"text","text":"# Python","x":-2515,"y":-40,"width":250,"height":77},
+		{"id":"8222a5c90eb4a593","type":"text","text":"# Logging","x":-2835,"y":760,"width":250,"height":77},
+		{"id":"f0cfaa011b9cda89","type":"text","text":"# 2oAuth","x":-2450,"y":760,"width":220,"height":77},
+		{"id":"9f992797c1fde50e","type":"text","text":"# env","x":-2135,"y":760,"width":250,"height":77},
+		{"id":"cc0d665e55c0e050","type":"text","text":"# Env","x":-3215,"y":1260,"width":250,"height":60},
+		{"id":"48c34b382fb252aa","type":"text","text":"# Volume","x":-3215,"y":1360,"width":250,"height":60},
+		{"id":"234db9793b3ba8fb","type":"text","text":"# Volume","x":-3715,"y":1360,"width":250,"height":60},
+		{"id":"74233c6f93b7b71a","type":"text","text":"# Env","x":-3715,"y":1260,"width":250,"height":60},
+		{"id":"034a66bb9ac20947","type":"text","text":"# Docker","x":-3415,"y":1020,"width":240,"height":81},
+		{"id":"4e3eae23ef3989e1","type":"text","text":"# Docker - compose","x":-3890,"y":1020,"width":300,"height":81},
+		{"id":"d1572031c2e227ee","type":"text","text":"# Amo Integration","x":-2520,"y":-420,"width":260,"height":60},
+		{"id":"3a5a9548843e7f3d","type":"text","text":"# Poetry","x":-3215,"y":760,"width":250,"height":77},
+		{"id":"463b294627f54ff7","type":"file","file":"Python/PipX.md","x":-3390,"y":-272,"width":600,"height":541}
+	],
+	"edges":[
+		{"id":"7433a24a83d2ac87","fromNode":"154dd4dcc3b30310","fromSide":"bottom","toNode":"9f992797c1fde50e","toSide":"top"},
+		{"id":"7ea0dac9593e261a","fromNode":"154dd4dcc3b30310","fromSide":"bottom","toNode":"8222a5c90eb4a593","toSide":"top"},
+		{"id":"2c42d6b8a82497d3","fromNode":"d1572031c2e227ee","fromSide":"bottom","toNode":"154dd4dcc3b30310","toSide":"top"},
+		{"id":"11bc3a9c0232f924","fromNode":"154dd4dcc3b30310","fromSide":"bottom","toNode":"f0cfaa011b9cda89","toSide":"top"},
+		{"id":"89f7be9b0eba16f8","fromNode":"463b294627f54ff7","fromSide":"bottom","toNode":"3a5a9548843e7f3d","toSide":"top"},
+		{"id":"3e603bf13b3e9291","fromNode":"154dd4dcc3b30310","fromSide":"left","toNode":"463b294627f54ff7","toSide":"right"},
+		{"id":"c11c1c16ad8c53e3","fromNode":"9f992797c1fde50e","fromSide":"bottom","toNode":"cc0d665e55c0e050","toSide":"right"},
+		{"id":"81ced723610217d9","fromNode":"034a66bb9ac20947","fromSide":"bottom","toNode":"48c34b382fb252aa","toSide":"top"},
+		{"id":"8c7a9091b1034dec","fromNode":"034a66bb9ac20947","fromSide":"bottom","toNode":"cc0d665e55c0e050","toSide":"top"},
+		{"id":"d2d3b952803511df","fromNode":"4e3eae23ef3989e1","fromSide":"bottom","toNode":"74233c6f93b7b71a","toSide":"top"},
+		{"id":"a003279fb956c145","fromNode":"4e3eae23ef3989e1","fromSide":"bottom","toNode":"234db9793b3ba8fb","toSide":"top"},
+		{"id":"db8cebf583920514","fromNode":"74233c6f93b7b71a","fromSide":"right","toNode":"cc0d665e55c0e050","toSide":"left"},
+		{"id":"68180641ac34dc14","fromNode":"234db9793b3ba8fb","fromSide":"right","toNode":"48c34b382fb252aa","toSide":"left"},
+		{"id":"d2ac1d3a392538ee","fromNode":"3a5a9548843e7f3d","fromSide":"bottom","toNode":"034a66bb9ac20947","toSide":"right"},
+		{"id":"10da06a07631b342","fromNode":"154dd4dcc3b30310","fromSide":"bottom","toNode":"3a5a9548843e7f3d","toSide":"top"}
+	]
+}

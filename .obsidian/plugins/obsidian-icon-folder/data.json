@@ -72,10 +72,8 @@
   "DevOps/architecture.md": "🏘",
   "DevOps/Docker.md": "🐬",
   "Databases/SQLite.md": "🪶",
-  "Base/RAID.md": "LiMoreHorizontal",
   "Base/regular.md": "LiSubtitles",
   "Base/web-servers.md": "🕸",
   "Base/proxmox.md": "🛫",
-  "Base/proxy.md": "LiServerCrash",
   "Base/digital-inf.md": "LiRemoveFormatting"
 }

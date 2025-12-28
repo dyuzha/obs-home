@@ -4,65 +4,27 @@
     "type": "split",
     "children": [
       {
-        "id": "94128981bfd91eca",
+        "id": "8dddb927006a69d6",
         "type": "tabs",
         "children": [
           {
-            "id": "aa222a6a4347c056",
+            "id": "022a792f7fe38457",
             "type": "leaf",
             "state": {
-              "type": "markdown",
+              "type": "canvas",
               "state": {
-                "file": "Base/BEM.md",
-                "mode": "source",
-                "source": false
+                "file": "ProxMox/PN-canvas.canvas",
+                "viewState": {
+                  "x": 591.6729568779126,
+                  "y": -178.38426141329106,
+                  "zoom": -1.631898781056895
+                }
               },
-              "icon": "lucide-file",
-              "title": "BEM"
-            }
-          },
-          {
-            "id": "3775d28686f8f758",
-            "type": "leaf",
-            "state": {
-              "type": "release-notes",
-              "state": {
-                "currentVersion": "1.8.7"
-              },
-              "icon": "lucide-book-up",
-              "title": "Release Notes 1.8.7"
-            }
-          },
-          {
-            "id": "1c0478e3ab895a01",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Git/Base.md",
-                "mode": "source",
-                "source": false
-              },
-              "icon": "lucide-file",
-              "title": "Base"
-            }
-          },
-          {
-            "id": "b3f4a7a6d433bd2b",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Git/Reference.md",
-                "mode": "source",
-                "source": false
-              },
-              "icon": "lucide-file",
-              "title": "Reference"
+              "icon": "lucide-layout-dashboard",
+              "title": "PN-canvas"
             }
           }
-        ],
-        "currentTab": 3
+        ]
       }
     ],
     "direction": "vertical"
@@ -89,7 +51,7 @@
                 "sortOrder": "alphabetical"
               },
               "icon": "lucide-search",
-              "title": "Search"
+              "title": "Поиск"
             }
           },
           {
@@ -99,7 +61,7 @@
               "type": "bookmarks",
               "state": {},
               "icon": "lucide-bookmark",
-              "title": "Bookmarks"
+              "title": "Закладки"
             }
           },
           {
@@ -136,7 +98,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "!!TEST/Kanban1.md",
+                "file": "ProxMox/PN-canvas.canvas",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -146,7 +108,7 @@
                 "unlinkedCollapsed": true
               },
               "icon": "links-coming-in",
-              "title": "Обратные ссылки для Kanban1"
+              "title": "Обратные ссылки для PN-canvas"
             }
           },
           {
@@ -155,12 +117,12 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Untitled.canvas",
+                "file": "ProxMox/PN-canvas.canvas",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               },
               "icon": "links-going-out",
-              "title": "Outgoing links from Untitled"
+              "title": "Исходящие ссылки из PN-canvas"
             }
           },
           {
@@ -170,10 +132,12 @@
               "type": "tag",
               "state": {
                 "sortOrder": "frequency",
-                "useHierarchy": true
+                "useHierarchy": true,
+                "showSearch": false,
+                "searchQuery": ""
               },
               "icon": "lucide-tags",
-              "title": "Tags"
+              "title": "Теги"
             }
           },
           {
@@ -182,10 +146,13 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Untitled.canvas"
+                "file": "ProxMox/PN-canvas.canvas",
+                "followCursor": true,
+                "showSearch": false,
+                "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "Outline of Untitled"
+              "title": "Структура PN-canvas"
             }
           },
           {
@@ -198,11 +165,12 @@
               "title": "Calendar"
             }
           }
-        ]
+        ],
+        "currentTab": 4
       }
     ],
     "direction": "horizontal",
-    "width": 200,
+    "width": 328,
     "collapsed": true
   },
   "left-ribbon": {
@@ -213,48 +181,49 @@
       "daily-notes:Сегодняшняя заметка": false,
       "templates:Вставить шаблон": false,
       "command-palette:Открыть палитру команд": false,
+      "bases:Создать новую базу": false,
       "obsidian-kanban:Создать новую доску": false
     }
   },
-  "active": "b3f4a7a6d433bd2b",
+  "active": "022a792f7fe38457",
   "lastOpenFiles": [
-    "Git/Cases.md",
-    "Git/4913",
-    "Python/flask-login.md~",
-    "Python/4913",
-    "Python/flask-login.md",
-    "Python/flask_login.md",
-    "Python/flask-migrate.md~",
-    "Python/werkzeug.md~",
-    "Python/werkzeug.md",
-    "Python/Flask.md~",
-    "Python/flask-migrate.md",
-    "Python/!Python.md~",
-    "Python/arch.md~",
-    "Python/arch.md",
-    "Python/poetry.md~",
-    "Python/poetry.md",
-    "Linux/!Lin.md~",
-    "Linux/strace.md",
-    "Linux/pipe.md",
-    "Linux/SELinux.md",
-    "Base/ssh.md",
-    "Base/TLS_ciril.md",
+    "!Theory/!Theory.md~",
+    "Base/!Base.md~",
+    "!Theory/!Theory.md",
+    "!Theory/OSI.md~",
+    "!Theory/arch-api.md~",
+    "!Theory/arch-api.md",
+    "!Theory/arch-proxy.md~",
+    "!Theory/arch-proxy.md",
+    "!Theory/proxy.md",
+    "!Theory/OSI.md",
+    "!Theory/kiber-ACME.md",
+    "!Theory/ACME.md",
+    "!Theory/ansible.md",
+    "!Theory/ansi-playbooks_vs_roles.md",
+    "!Theory/kiber-certs.md~",
+    "!Theory/kiber-certs.md",
+    "!Theory/SSL_TLS.md~",
+    "!Theory/net-TLS.md~",
+    "!Theory/net-TLS.md",
+    "!Theory/kiber-GPG.md",
+    "!Theory/net-bgp.md",
+    "Base/kiber-certs.md",
+    "Base/digital-inf.md~",
+    "!Theory/TLS.md~",
+    "!Theory/SSL_TLS.md",
+    "Base/SSL_TLS.md",
+    "!Theory/TLS.md",
+    "Base/TLS.md",
     "Base/Certs.md",
-    "Python/unittest.md",
-    "Base/wsgi.md",
-    "Base/asgi.md",
-    "Python/pydantic.md",
-    "dockerfile.md",
-    "make.md",
-    "TEST.md",
-    "test2.md",
-    "Untitled.canvas",
-    "Base/proxmox.md",
-    "Base/BEM.md",
-    "Git/Base.md",
-    "Linux/fstab_conf.md",
-    "Linux/sshfs.md",
+    "!Theory/Theory.md",
+    "!Theory/api.md",
+    "!Theory/GPG.md",
+    "!Theory/Processor.md",
+    "!Theory/playbooks_vs_roles.md",
+    "!Theory/Ansible.md",
+    "ProxMox/PN-canvas.canvas",
+    "BP.canvas",
     "files/obs-logo.svg"
   ]
 }

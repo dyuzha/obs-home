@@ -1,9 +1,0 @@
-{
-	"nodes":[
-		{"id":"e7527e9a20c0c7bf","type":"text","text":"# Introduction","x":-460,"y":-210,"width":310,"height":60},
-		{"id":"0a08febef89b492e","type":"text","text":"# Docker","x":-430,"y":-360,"width":250,"height":60}
-	],
-	"edges":[
-		{"id":"cdff00391d0099dc","fromNode":"0a08febef89b492e","fromSide":"bottom","toNode":"e7527e9a20c0c7bf","toSide":"top"}
-	]
-}

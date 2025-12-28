@@ -1,0 +1,17 @@
+{
+	"nodes":[
+		{"id":"620a97578471aa62","x":2000,"y":-120,"width":720,"height":900,"type":"file","file":"ProxMox/vm-settings-rng.md"},
+		{"id":"df19970d7162b24d","type":"file","file":"ProxMox/vm-settings-disks.md","x":3760,"y":-120,"width":720,"height":1040},
+		{"id":"21ccdcfdec66e055","type":"text","text":"# Settings","x":3080,"y":-350,"width":250,"height":60},
+		{"id":"7c57b9521d51a2fa","type":"file","file":"ProxMox/vm-settings-graphic.md","x":2880,"y":-120,"width":720,"height":880},
+		{"id":"1b36acb3d93d733c","type":"file","file":"ProxMox/!PM.md","x":80,"y":-1560,"width":720,"height":1960},
+		{"id":"7d27247184214628","type":"file","file":"ProxMox/qm.md","x":1080,"y":-1310,"width":720,"height":2250}
+	],
+	"edges":[
+		{"id":"38e154894be634af","fromNode":"1b36acb3d93d733c","fromSide":"right","toNode":"7d27247184214628","toSide":"left"},
+		{"id":"0e1a06996b63fee1","fromNode":"7d27247184214628","fromSide":"right","toNode":"21ccdcfdec66e055","toSide":"top"},
+		{"id":"05c7300628c7a628","fromNode":"21ccdcfdec66e055","fromSide":"bottom","toNode":"df19970d7162b24d","toSide":"top"},
+		{"id":"78c8ccb33b956c03","fromNode":"21ccdcfdec66e055","fromSide":"bottom","toNode":"7c57b9521d51a2fa","toSide":"top"},
+		{"id":"9557b68eef9ee773","fromNode":"21ccdcfdec66e055","fromSide":"bottom","toNode":"620a97578471aa62","toSide":"top"}
+	]
+}
