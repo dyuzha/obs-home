@@ -49,6 +49,7 @@ tags: []
     [[IPA-client]]
 
 [[sysctl]]
+[[firewalld]]
 
 
 ## Мониторинг
