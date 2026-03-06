@@ -4,27 +4,37 @@
     "type": "split",
     "children": [
       {
-        "id": "8dddb927006a69d6",
+        "id": "b4f75dde183345bf",
         "type": "tabs",
         "children": [
           {
-            "id": "022a792f7fe38457",
+            "id": "cbb8d5a94ccefe82",
             "type": "leaf",
             "state": {
-              "type": "canvas",
+              "type": "markdown",
               "state": {
-                "file": "ProxMox/PN-canvas.canvas",
-                "viewState": {
-                  "x": 591.6729568779126,
-                  "y": -178.38426141329106,
-                  "zoom": -1.631898781056895
-                }
+                "file": "Git/!Git.md",
+                "mode": "source",
+                "source": false
               },
-              "icon": "lucide-layout-dashboard",
-              "title": "PN-canvas"
+              "icon": "lucide-file",
+              "title": "!Git"
+            }
+          },
+          {
+            "id": "3582d516eba386d4",
+            "type": "leaf",
+            "state": {
+              "type": "release-notes",
+              "state": {
+                "currentVersion": "1.11.5"
+              },
+              "icon": "lucide-book-up",
+              "title": "примечания к выпуску 1.11.5"
             }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -185,43 +195,44 @@
       "obsidian-kanban:Создать новую доску": false
     }
   },
-  "active": "022a792f7fe38457",
+  "active": "3582d516eba386d4",
   "lastOpenFiles": [
-    "!Theory/!Theory.md~",
-    "Base/!Base.md~",
-    "!Theory/!Theory.md",
-    "!Theory/OSI.md~",
-    "!Theory/arch-api.md~",
-    "!Theory/arch-api.md",
-    "!Theory/arch-proxy.md~",
-    "!Theory/arch-proxy.md",
-    "!Theory/proxy.md",
-    "!Theory/OSI.md",
-    "!Theory/kiber-ACME.md",
-    "!Theory/ACME.md",
-    "!Theory/ansible.md",
-    "!Theory/ansi-playbooks_vs_roles.md",
-    "!Theory/kiber-certs.md~",
-    "!Theory/kiber-certs.md",
-    "!Theory/SSL_TLS.md~",
-    "!Theory/net-TLS.md~",
-    "!Theory/net-TLS.md",
-    "!Theory/kiber-GPG.md",
-    "!Theory/net-bgp.md",
-    "Base/kiber-certs.md",
-    "Base/digital-inf.md~",
-    "!Theory/TLS.md~",
-    "!Theory/SSL_TLS.md",
-    "Base/SSL_TLS.md",
-    "!Theory/TLS.md",
-    "Base/TLS.md",
-    "Base/Certs.md",
-    "!Theory/Theory.md",
-    "!Theory/api.md",
-    "!Theory/GPG.md",
-    "!Theory/Processor.md",
-    "!Theory/playbooks_vs_roles.md",
-    "!Theory/Ansible.md",
+    "!OS/ProxMox/!PM.md~",
+    "!Theory.md~",
+    "!Theory.md",
+    "!OS/ProxMox/!PM.md",
+    "!OS/ProxMox/vm-set-rng.md",
+    "!OS/ProxMox/vm-set-net.md",
+    "!OS/ProxMox/vm-set-graphic.md",
+    "!OS/ProxMox/vm-set-disks.md",
+    "!OS/ProxMox/vm-cloud-init.md",
+    "!OS/ProxMox/virtio.md",
+    "!OS/ProxMox/qm.md",
+    "!OS/ProxMox/PN-canvas.canvas",
+    "!OS/ProxMox",
+    "!Soft/web-servers.md",
+    "!Soft",
+    "Soft",
+    "!Network/MikroTik/MTCNA.md",
+    "!Network/MikroTik/!MikroTik.md",
+    "!Network/MikroTik",
+    "!Data/maria-db.md",
+    "!Data",
+    "Data",
+    "!OS/Docker/volumes.md",
+    "!OS/Docker/linux-lab.md",
+    "!OS/Docker/drivers.md",
+    "!OS/Docker/dockerhub.md",
+    "!OS/Docker/!Docker.md",
+    "!OS/Docker",
+    "!Protocols",
+    "!OS/vps_vds.md",
+    "!OS/proxmox.md",
+    "!Network/vpn_shadowsocks.md",
+    "!Network/vpn_vless.md",
+    "!Network/REALITY.md",
+    "!Network/Marzban.md",
+    "!Network/xray.md",
     "ProxMox/PN-canvas.canvas",
     "BP.canvas",
     "files/obs-logo.svg"

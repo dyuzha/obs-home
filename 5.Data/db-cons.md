@@ -1,6 +1,7 @@
 ---
 id: db-cons
-aliases: []
+aliases:
+  - Init #
 tags: []
 ---
 

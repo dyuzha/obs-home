@@ -4,10 +4,6 @@ aliases:
   - Chroot
 tags: []
 ---
-
-**Back**
-    [[!DevOps]]
-
 - как сокет Беркли
 source: [Habr - chroot](https://habr.com/ru/companies/selectel/articles/655485/)
 
