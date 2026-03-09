@@ -35,7 +35,9 @@ tags: []
 [[ftp]]
 [[http]]
 [[socks5]]
-[[mikrotik]]
+
+[[!mikrotik]]
+[[port_forwarding]]
 - каналы,
 - маршрутизация,
 - коммутация,
@@ -61,58 +63,82 @@ tags: []
 - runtimes,
 - kernel internals.
 
+
+[[cgroups]]
+
+
+### Linux
+---
+[[!Linux]]
+[[CLI]]
+[[More-apps]]
+[[Notice]] - Неклассифицированная информация
+[[Packet-mn]]
+[[alternatives]]
+[[archive]]
+[[devices]] - Отображение устройств
+[[gpg_conf]]
+[[mount_autmount-unit]]
+[[ngrok]]
+[[pacman]]
+[[fstab_conf]]
+
+
+**Domain**
+[[kerberos]] - Базовая информация про протокол
+    Реализация данного протокола на примере IPA
+    [[IPA-client]]
+    [[IPA-server]]
+
+**Net**
+[[socat]]
+[[wget]]
+[[curl]]
+[[wget_vs_curl]]
+[[netplan]] (нет файла)
+    Декларированный способ настройки сетевых интерфейсов
+
+**Base**
+[[systemd]] - Базовая информация с примерами применения
+    [[Units]] - Создание собственных unit'ов systemd
+[[admin]] - Административные команды (база)
+
+[[sysctl]] - Утилита для динамического переопределения переменных ядра
+
+[[chroot]]
+[[Memory]] - Как устроена память в Linux
+[[process]] - Взаимодействие с процессами в Linux
+    [[oom-killer]]
+[[stored_files]] - Спецификация директорий
+
+[[file]] - Позволяет определить mime-type
+[[term]]
+
+[[Special_permission_bits]]
+[[SELinux]] - Усовершенствованный механизм контроля доступа
+
+**SSH**
+[[ssh-copy-id]]
+[[ssh]]
+[[sshfs]] - Монтирование удаленной файловой системы
+[[scp]] - Копирование на удаленный сервер
+
+**Skill**
+[[tmux]] - Терминальный мультиплексор
+[[ranger]] - Консольный файловый менеджер
+[[novigation]] - Быстрое взаимодействие с консолью
+[[eed]]
+[[awk]]
+
+**Firewall, безопасность**
+[[fail2ban]]
+[[firewalld]]
+[[ufw]]
+
 ### Windows
 ---
 [[AD]]
 [[Windows]]
-
-### Linux
----
-[[!Lin]]
-[[CLI]]
-[[IPA-client]]
-[[IPA-server]]
-[[Memory]]
-[[More-apps]]
-[[Notice]]
-[[SELinux]]
-[[Packet-mn]]
-[[Special_permission_bits]]
-[[Units]]
-[[admin]] - Админские команды (база)
-[[alternatives]]
-[[archive]]
-[[awk]]
-[[cgroups]]
-[[chroot]]
-[[curl]]
-[[devices]]
-[[fail2ban]]
-[[file]]
-[[firewalld]]
-[[fstab_conf]]
-[[gpg_conf]]
-[[kerberos]]
-[[mount_autmount-unit]]
-[[ngrok]]
-[[novigation]]
-[[oom-killer]]
-[[pacman]]
-[[ranger]]
-[[process]]
-[[scp]]
-[[sed]]
-[[socat]]
-[[ssh-copy-id]]
-[[ssh]]
-[[sshfs]]
-[[sysctl]]
-[[systemd]]
-[[term]]
-[[tmux]]
-[[wget]]
-[[wget_vs_curl]]
-
 
 
 ### Контейнерные менеджеры
@@ -121,14 +147,23 @@ tags: []
 
 ### Гипервизоры (KVM, VMware)
 ---
-[[!PM]] - ProxMox
-[[proxmox]]
-[[virtio]]
-[[vm-cloud-init]]
-[[vm-set-graphic]]
-[[vm-set-disks]]
-[[vm-set-net]]
-[[vm-set-rng]]
+[[!proxmox]] - ProxMox
+    [[proxmox]] - Базовая информация
+    [[virtio]]
+    [[add_guest_agent]] -  Добавить гостевой агент
+    [[disable_ipv6]] -  Отключить IPv6
+    [[error_regulatory_db]]
+    [[resize_disk]]
+    [[update]] - Обновнеление с 8 до 9
+    [[clone_cloudinit]]  - Клонирование cloudinit образа
+
+
+- **Консоль**
+    [[vm-cloud-init]]
+    [[vm-set-graphic]]
+    [[vm-set-disks]]
+    [[vm-set-net]]
+    [[vm-set-rng]]
 
 [[vps_vds]] (Пустой но с ссылкой)
 Базовая информация про виртуальное решение управления ИТ-инфраструктурой
@@ -136,8 +171,9 @@ tags: []
 
 ### Контейнеризация
 ---
+
 [[!Docker]]
-    [[Compose]]
+    [[Compose]] - Простой оркестратор
     [[architecture]] - Архитектура Docker'а
     [[cmd]] - Команды
     [[dockerfile]]
@@ -216,7 +252,7 @@ Gateways:
 [[Radicale]]
 [[CalDav]]
 [[htpasswd]]
-[[LDAP]]
+[[LDAP]] - Базовая информация про протоколы
 [[acmes.sh]]
 [[nginx]]
 
@@ -282,16 +318,18 @@ Gateways:
 ---
 [[!Git]]
     [[Base]]
+    [[workflow]]
     [[Cases]]
     [[Conflicts]]
-    [[GitHubCli]]
     [[LazyGit]]
     [[Merge]]
     [[Reference]]
     [[Stage]]
     [[Stash]]
     [[sparse-checkout]]
-    [[ssh]]
+- **More**:
+    [[GitHubCli]]
+    - [ ] [[ssh]]
 
 инструменты и практики для автоматизации:
 - сборок,
@@ -308,13 +346,20 @@ Gateways:
     Раздница между playbooks и roles
 
 [[ci_cd]]
-[[workflow]]
-    [GitHub Actions](gh-actions)
-    [Gitlab CI/CD](gitlab-ci-cd)
-    [[Jetkins]]
+[[Jetkins]]
+[GitHub Actions](gh-actions)
 
-## 8. Наблюдаемость, логирование и управление инцидентами
+[Gitlab CI/CD](gitlab-ci-cd)
+    [[gitlub-runner]]
+
+
+## 8. Наблюдаемость, логирование и управление инцидентами (trubleshooting)
 ---
+[[strace]]
+    Позволяет отследить системные вызовы в процессе выполнения программы
+
+[[net]]
+
 — метрики,
 - трассировка,
 - лог-агрегация,
@@ -325,7 +370,7 @@ Gateways:
 
 ## 9. Безопасность и управление доступом
 ---
-- сетевые границы,
+- сетевые границы
 - IAM,
 - PKI,
 - безопасность SDLC,

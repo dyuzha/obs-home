@@ -1,10 +1,11 @@
 ---
 id: fstab_conf
-aliases: []
+aliases:
+  - Fstab
 tags: []
 ---
 **Back**
-    [[!Lin]]
+    [[!Theory]]
 
 # Fstab
 ---

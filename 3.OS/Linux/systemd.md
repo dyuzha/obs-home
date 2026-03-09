@@ -19,6 +19,12 @@ tags: []
 ```sh
 # Посмотреть названия сервисов
 systemctl list-units --type=service
+
+# Посмотреть зависимости сервиса
+systemctl list-dependencies name-service
+
+# Посмотреть файл unitа
+systemctl cat name-service
 ```
 
 Systemd - не единая бинарная программы, а набор связанных компонентов, образующих "каркас" системы.

@@ -1,5 +1,5 @@
 ---
-id: "!PM"
+id: PM
 aliases:
   - PVE
 tags: []

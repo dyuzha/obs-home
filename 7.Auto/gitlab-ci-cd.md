@@ -5,12 +5,11 @@ aliases:
 tags: []
 ---
 **Back**
-    [[!!Base]]
-    [[workflow]]
-    [[ci_cd]]
+    [[!Theory]]
 
 # gitlab-ci-cd
 ---
+
 
 ```yaml
 stages:

@@ -1,5 +1,5 @@
 ---
-id: "!PM"
+id: qm
 aliases:
   - QM
 tags: []

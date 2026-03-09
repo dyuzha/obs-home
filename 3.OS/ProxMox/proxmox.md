@@ -4,9 +4,6 @@ aliases:
   - Proxmox
 tags: []
 ---
-**Back**
-    [[!!Base]]
-    [[!Net]]
 
 # Proxmox
 ---

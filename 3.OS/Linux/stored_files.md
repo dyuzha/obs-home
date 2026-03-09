@@ -1,10 +1,11 @@
 ---
 id: stored_files
-aliases: []
+aliases:
+  - Спецификация XDG Base Directory Specification
 tags: []
 ---
 **Back**
-    [[!Lin]]
+    [[!Theory]]
 
 
 # Спецификация XDG Base Directory Specification

@@ -1,6 +1,7 @@
 ---
 id: architecture
-aliases: []
+aliases:
+  - Docker architecture
 tags: []
 ---
 
