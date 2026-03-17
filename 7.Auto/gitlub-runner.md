@@ -32,10 +32,20 @@ systemctl enable gitlab-runner --now
 
 4. Регистрация в проекте
 ```bash
-gitlab-runner register  --url https://gitlab.com  --token glrt-k6jFdwVHwCSBmiE1UvZFD286MQpwOjFibzB2bwp0OjMKdTppYXBvdxg.01.1j1xf7n4j
+gitlab-runner register  --url https://gitlab.com  --token <token>
 ```
 
 5. Проверка
 ```bash
 gitlab-runner run
+systemctl enable gitlab-runner
+```
+
+6.
+```bash
+# Генерируем ключ
+ssh-keygen -t ed25519 -C "gitlab-ci-deploy" -f ~/.ssh/id_ed25519
+
+# Копируем на сервер
+ssh-copy-id -i ~/.ssh/id_ed25519.pub deployer@server.com
 ```
