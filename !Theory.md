@@ -59,6 +59,7 @@ tags: []
 ---
 [[vps_vds]] - Отличия
 [[docker_vs_lxc_lxd]] - Отличие Docker от lxc/lxd
+
 [[ssh]]
 - runtimes,
 - kernel internals.
@@ -182,7 +183,7 @@ tags: []
     [[linux-lab]]
     [[namespace-container]]
     [[volumes]]
-
+    [[cases]]
 - LXC
 
 ### Орекстрация
@@ -317,6 +318,7 @@ Gateways:
 ## 7. Автоматизация, CI/CD & IaC
 ---
 [[!Git]]
+    [[tags]]
     [[Base]]
     [[workflow]]
     [[Cases]]
@@ -341,6 +343,7 @@ Gateways:
 Инфраструктура как код
 
 [[ansible]]
+[[ansible-vault]]
 [[Ansible]]
     [[playbooks_vs_roles]]
     Раздница между playbooks и roles
@@ -350,6 +353,7 @@ Gateways:
 [GitHub Actions](gh-actions)
 
 [Gitlab CI/CD](gitlab-ci-cd)
+    [[gitlab-stragegy]]
     [[gitlub-runner]]
 
 
